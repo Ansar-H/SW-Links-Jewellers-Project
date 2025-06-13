@@ -1,7 +1,7 @@
 ---
-title: "About Us | Southwest Prestige Hire"
-description: "Discover Southwest Prestige Hire's premium fleet of Mercedes, BMW, Audi and Land Rover vehicles. Offering professional chauffeur services for weddings, corporate events, airport transfers and special occasions across the UK."
-preloadImg: "/assets/images/mercedes-about-page-hero.jpg"
+title: "About Us | Southwest Link Jewellers"
+description: "Discover Southwest Link Jewellers's premium jewellery and watches. Offering quality pieces, honest prices, and a personal touch. Every item we sell reflects our passion for great craftsmanship and genuine service."
+preloadImg: "/assets/images/bracelets5.jpg"
 permalink: "about/"
 eleventyNavigation:
   key: About Us
@@ -16,381 +16,236 @@ eleventyNavigation:
 <!--                    Hero                      -->
 <!-- ============================================ -->
 
-<section id="hero-2151">
-  <div class="cs-container">
-    <div class="cs-content">
-      <span class="cs-topper">About Southwest Prestige Hire</span>
-      <h2 class="cs-title">
-        Southwest Prestige Hire - Luxury & Reliability Across the UK
-      </h2>
-      <p class="cs-text">
-        Our service defines reliability, trust, and excellence. With a diverse
-        fleet featuring desirable brands like Mercedes, Audi, BMW, and Land
-        Rover, we stand as the premier choice for all your transportation needs.
-      </p>
-      <div class="cs-button-box">
-        <a href="/our-fleet" class="cs-button-solid">Our Fleet</a>
-        <a href="/contact" class="cs-button-solid">Contact Us</a>
-      </div>
+<section id="hero-2219">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">About Southwest Link Jewellers</h1>
+            <p class="cs-text">
+                What started as two friends collecting jewellery around Bristol has grown into a trusted local business. At Southwest Link Jewellers, we're proud to offer quality pieces, honest prices, and a personal touch. Every item we sell reflects our passion for great craftsmanship and genuine service.
+            </p>
+            <div class="cs-video-group" onclick="playAboutVideo()">
+                <div class="cs-wrapper">
+                    <!-- Video thumbnail (shown by default) -->
+                    <picture class="cs-picture" id="video-thumbnail-about">
+                        <source media="(max-width: 600px)" srcset="/assets/images/bracelets5.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/bracelets5.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/bracelets5.jpg" alt="Southwest Link Jewellers Video" width="630" height="400">
+                    </picture>
+                    
+                    <!-- Vimeo Video Container (hidden by default) -->
+                    <div class="cs-video-container" id="video-container-about" style="display: none;">
+                        <div>
+                            <iframe 
+                                id="vimeo-player-about"
+                                src="" 
+                                frameborder="0" 
+                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                                title="Southwest Link Jewellers Video">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <button class="cs-play" id="play-button-about" aria-label="click to play video">
+                    <img src="/assets/svgs/play-icon2.svg" alt="play icon" width="120" height="120" aria-hidden="true" decoding="async">
+                </button>
+            </div>
+        </div>
+        <picture class="cs-background">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/office.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/office.jpg">
+            <img loading="lazy" decoding="async" src="/assets/images/office.jpg" alt="office" width="1280" height="568">
+        </picture>
     </div>
-    <picture class="cs-background">
-      <!--Mobile Image-->
-      <source
-        media="(max-width: 600px)"
-        srcset="/assets/images/mercedes-about-page-hero.jpg"
-      />
-      <!--Tablet and above Image-->
-      <source
-        media="(min-width: 601px)"
-        srcset="/assets/images/mercedes-about-page-hero.jpg"
-      />
-      <img
-        loading="lazy"
-        decoding="async"
-        src="/assets/images/mercedes-about-page-hero.jpg"
-        alt="mercedes"
-        width="960"
-        height="857"
-      />
-    </picture>
-  </div>
+</section>
+
+<script>
+function playAboutVideo() {
+    // Hide the thumbnail and play button
+    document.getElementById('video-thumbnail-about').style.display = 'none';
+    document.getElementById('play-button-about').style.display = 'none';
+    
+    // Show the video container
+    const videoContainer = document.getElementById('video-container-about');
+    videoContainer.style.display = 'block';
+    
+    // Load the Vimeo video with autoplay
+    const iframe = document.getElementById('vimeo-player-about');
+    iframe.src = 'https://player.vimeo.com/video/1092485359?h=09deb5ee64&badge=0&autopause=0&autoplay=1&player_id=0&app_id=58479';
+}
+
+// Load Vimeo Player API
+const script = document.createElement('script');
+script.src = 'https://player.vimeo.com/api/player.js';
+document.head.appendChild(script);
+</script>
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-1560">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Top left image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/rings7.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/rings7.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/rings7.jpg" alt="rings" width="305" height="265">
+            </picture>
+            <!--Top Right image-->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/watch2.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/watch2.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/watch2.jpg" alt="watch" width="197" height="265">
+            </picture>
+            <!--Bottom Left image-->
+            <picture class="cs-picture cs-picture3">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/chains7.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/chains7.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/chains7.jpg" alt="chains" width="217" height="230">
+            </picture>
+            <!--Bottom right image-->
+            <picture class="cs-picture cs-picture4">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/rings8.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/rings8.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/rings8.jpg" alt="rings" width="304" height="212">
+            </picture>
+            <!--Middle image-->
+            <picture class="cs-picture cs-picture5">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/watch.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/watch.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/watch.jpg" alt="watch" width="305" height="445">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">About us</span>
+            <h2 class="cs-title">Our Bristol Story</h2>
+            <p class="cs-text">
+                Southwest Link Jewellers began with two friends united by a shared passion for beautiful jewellery. What started as collecting and trading pieces quickly evolved into something much bigger. We began investing in gold, creating our first bracelets, and driving around Bristol making personal deliveries to our growing customer base. <br><br>
+                
+                Those early days taught us the importance of building genuine relationships with our customers. We learned that people don't just buy jewellery - they invest in memories, celebrate milestones, and express their personal style. This understanding became the foundation of everything we do. <br><br>
+                
+                Today, we operate from our professional Bristol showroom, but we've never forgotten our roots. We still believe in personal service, honest pricing, and treating every customer like family. Our journey from passionate collectors to trusted jewellers reflects our commitment to growing alongside the Bristol community we're proud to serve.
+            </p>
+            <a href="/contact" class="cs-button-solid">Contact Us For A Piece</a>
+        </div>
+    </div>
 </section>
 
 <!-- ============================================ -->
-<!--                  Services                    -->
+<!--                   Services                   -->
 <!-- ============================================ -->
 
-<section id="services-689">
-  <div class="cs-container">
-    <div class="cs-content">
-      <div class="cs-flex-group">
-        <span class="cs-topper">Our Services</span>
-        <h2 class="cs-title">
-          We Provide Premium Services To
-          <span class="cs-color">Enhance Your Journey</span>
-        </h2>
-      </div>
-      <p class="cs-text">
-        At Southwest Prestige Hire, your journey is important to us. We deliver
-        a 5-star service with impeccable vehicles and chauffeurs to ensure your
-        special moments are extraordinary.
-      </p>
+<section id="services-2387">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">About Us</span>
+            <h2 class="cs-title">What Drives Us</h2>
+            <p class="cs-text">
+                At Southwest Link Jewellers, everything we do is shaped by our core values — quality, honesty, and care. From sourcing standout pieces to offering fair prices and personal service, we’re here to make your jewellery experience special. Our roots are in Bristol, and so is our commitment to the community that supports us.
+            </p>
+        </div>
+        <div class="cs-wrapper">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/bracelets4.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/bracelets4.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bracelets4.jpg" alt="bracelets" width="402" height="416">
+            </picture>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <h3 class="cs-h3">Quality First</h3>
+                    <p class="cs-item-text">
+                        We source and create only the finest jewellery pieces, making sure that every item in our collection meets our high standards for craftsmanship and materials.
+                    </p>
+                    <a href="" class="cs-link">Contact Now</a>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">Honest Pricing 
+                        Therapy</h3>
+                    <p class="cs-item-text">
+                        Transparent, fair pricing with no hidden costs. We believe beautiful jewellery should be accessible without compromising on quality.
+                    </p>
+                    <a href="" class="cs-link">Contact Now</a>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">Personal Service</h3>
+                    <p class="cs-item-text">
+                        Every customer receives individual attention and expert guidance, whether you're buying your first piece or building a collection.
+                    </p>
+                    <a href="" class="cs-link">Contact Now</a>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">Community Focus</h3>
+                    <p class="cs-item-text">
+                        As a Bristol-based business, we're committed to serving our local community and building lasting relationships with our customers.
+                    </p>
+                    <a href="" class="cs-link">Contact Now</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <ul class="cs-card-group">
-      <li class="cs-item">
-        <a class="cs-link">
-          <picture class="cs-picture">
-            <img
-              class="cs-icon"
-              src="/assets/svgs/wedding-rings.svg"
-              loading="lazy"
-              decoding="async"
-              alt="wedding rings"
-              width="32"
-              height="32"
-              aria-hidden="true"
-            />
-          </picture>
-          <h3 class="cs-h3">Weddings & Special Occasions</h3>
-          <p class="cs-item-text">
-            Your wedding day is a celebration of love, and we believe that your
-            transportation should reflect the same sentiment. Our chauffeur
-            services ensure a smooth and timely arrival, allowing you to focus
-            on the joy of the moment.
-          </p>
-        </a>
-      </li>
-      <li class="cs-item">
-        <a class="cs-link">
-          <picture class="cs-picture">
-            <img
-              class="cs-icon"
-              src="/assets/svgs/briefcase.svg"
-              loading="lazy"
-              decoding="async"
-              alt="briefcase"
-              width="32"
-              height="32"
-              aria-hidden="true"
-            />
-          </picture>
-          <h3 class="cs-h3">Corporate Travel</h3>
-          <p class="cs-item-text">
-            Make a statement with our luxurious corporate travel services.
-            Impress clients, ensure punctual arrivals to meetings, and travel in
-            comfort and style. Our professional chauffeurs ensure discretion and
-            reliability at all times.
-          </p>
-        </a>
-      </li>
-      <li class="cs-item">
-        <a class="cs-link">
-          <picture class="cs-picture">
-            <img
-              class="cs-icon"
-              src="/assets/svgs/celebration.svg"
-              loading="lazy"
-              decoding="async"
-              alt="celebration"
-              width="32"
-              height="32"
-              aria-hidden="true"
-            />
-          </picture>
-          <h3 class="cs-h3">Proms & Celebrations</h3>
-          <p class="cs-item-text">
-            Make your prom night extra special with our luxury vehicles. Make a
-            grand entrance with a luxury vehicle that perfectly complements the
-            significance of the event. Impeccable service and attention to
-            detail for unforgettable memories.
-          </p>
-        </a>
-      </li>
-      <li class="cs-item">
-        <a class="cs-link">
-          <picture class="cs-picture">
-            <img
-              class="cs-icon"
-              src="/assets/svgs/car-key.svg"
-              loading="lazy"
-              decoding="async"
-              alt="car key"
-              width="32"
-              height="32"
-              aria-hidden="true"
-            />
-          </picture>
-          <h3 class="cs-h3">Self-Drive Hire</h3>
-          <p class="cs-item-text">
-            For those who prefer the thrill of the open road, our self-drive
-            service puts you in control. Our fleet of top-tier vehicles is
-            available for you to drive, allowing you to experience the journey
-            in a way that only a luxury car can provide.
-          </p>
-        </a>
-      </li>
-      <li class="cs-item">
-        <a class="cs-link">
-          <picture class="cs-picture">
-            <img
-              class="cs-icon"
-              src="/assets/svgs/airplane-car.svg"
-              loading="lazy"
-              decoding="async"
-              alt="airplane with car"
-              width="32"
-              height="32"
-              aria-hidden="true"
-            />
-          </picture>
-          <h3 class="cs-h3">Airport Transfers</h3>
-          <p class="cs-item-text">
-            Begin or end your journey in style with our premium airport transfer
-            service. Our chauffeurs monitor flight times to ensure punctual
-            pickups, assist with luggage, and provide a stress-free transition
-            to or from your flight.
-          </p>
-        </a>
-      </li>
-      <li class="cs-item">
-        <a class="cs-link">
-          <picture class="cs-picture">
-            <img
-              class="cs-icon"
-              src="/assets/svgs/uk-map.svg"
-              loading="lazy"
-              decoding="async"
-              alt="uk map"
-              width="32"
-              height="32"
-              aria-hidden="true"
-            />
-          </picture>
-          <h3 class="cs-h3">Nationwide Service</h3>
-          <p class="cs-item-text">
-            Based in the Southwest but operating across the UK, our services are
-            available nationwide. No matter where your journey takes you,
-            Southwest Prestige Hire is ready to provide exceptional luxury
-            transportation experiences.
-          </p>
-        </a>
-      </li>
-    </ul>
-  </div>
 </section>
 
 <!-- ============================================ -->
-<!--                   Gallery                    -->
+<!--                 Why Choose                   -->
 <!-- ============================================ -->
 
-<section id="gallery-1648">
-  <div class="cs-container">
-    <div class="cs-content">
-      <div class="cs-flex">
-        <span class="cs-topper">Social</span>
-        <h2 class="cs-title">More From Southwest Prestige Hire</h2>
-      </div>
-      <a
-        href="https://www.instagram.com/southwestprestigehire"
-        class="cs-button-solid"
-      >
-        <img
-          class="cs-button-icon"
-          loading="lazy"
-          decoding="async"
-          src="/assets/svgs/insta-icon.svg"
-          alt="instagram"
-          width="20"
-          height="20"
-        />
-        @SouthwestPrestigeHire
-      </a>
+<section id="why-choose-506">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">About Us</span>
+                <h2 class="cs-title">Why Choose Southwest Link Jewellers</h2>
+            </div>
+            <p class="cs-text">
+                We’re not just jewellers — we’re passionate about helping people find pieces they truly love. From custom designs to honest pricing, everything we do is built on quality, trust, and personal service.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/square.svg" loading="lazy" decoding="async" alt="square icon" width="70" height="70">
+                <h3 class="cs-h3">Curated Selection</h3>
+                <p class="cs-item-text">
+                    Our collection is carefully chosen for quality, style, and value. Every piece is selected to meet our high standards.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/square.svg" loading="lazy" decoding="async" alt="square icon" width="70" height="70">
+                <h3 class="cs-h3">Expert Knowledge</h3>
+                <p class="cs-item-text">
+                    Years of experience in jewellery trading and customer service means we can guide you to the perfect piece.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/square.svg" loading="lazy" decoding="async" alt="square icon" width="70" height="70">
+                <h3 class="cs-h3">Competitive Prices</h3>
+                <p class="cs-item-text">
+                    Direct sourcing and efficient operations allow us to offer premium jewellery at honest, competitive prices.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/square.svg" loading="lazy" decoding="async" alt="square icon" width="70" height="70">
+                <h3 class="cs-h3">Complete Services</h3>
+                <p class="cs-item-text">
+                    From sales to repairs, custom design to gold buying – we’re your one-stop destination for all jewellery needs.
+                </p>
+            </li>
+        </ul>
     </div>
-    <div class="cs-gallery">
-      <!--Picture 1-->
-      <a href="https://www.instagram.com/p/DBUTl0qI5Fs/" class="cs-link">
-        <picture class="cs-image">
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/bmw-m3-back.jpg"
-          />
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/bmw-m3-back.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/bmw-m3-back.jpg"
-            alt="bmw m3"
-            width="305"
-            height="400"
-          />
-        </picture>
-        <img
-          class="cs-link-icon"
-          loading="lazy"
-          decoding="async"
-          src="/assets/svgs/insta-icon.svg"
-          alt="instagram"
-          width="48"
-          height="48"
-        />
-      </a>
-      <!--Picture 2-->
-      <a href="https://www.instagram.com/p/DBjwWqjohUE/" class="cs-link">
-        <picture class="cs-image">
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/rover-svr-front.jpg"
-          />
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/rover-svr-front.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/rover-svr-front.jpg"
-            alt="range rover svr"
-            width="305"
-            height="400"
-          />
-        </picture>
-        <img
-          class="cs-link-icon"
-          loading="lazy"
-          decoding="async"
-          src="/assets/svgs/insta-icon.svg"
-          alt="instagram"
-          width="48"
-          height="48"
-        />
-      </a>
-      <!--Picture 3-->
-      <a href="https://www.instagram.com/p/DEA5IhwoyQ3/" class="cs-link">
-        <picture class="cs-image">
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/lamborghini-urus-back.jpg"
-          />
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/lamborghini-urus-back.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/lamborghini-urus-back.jpg"
-            alt="lamborghini urus"
-            width="305"
-            height="400"
-          />
-        </picture>
-        <img
-          class="cs-link-icon"
-          loading="lazy"
-          decoding="async"
-          src="/assets/svgs/insta-icon.svg"
-          alt="instagram"
-          width="48"
-          height="48"
-        />
-      </a>
-      <!--Picture 4-->
-      <a href="https://www.instagram.com/p/DC7WE1vooTH/" class="cs-link">
-        <picture class="cs-image">
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/g-wagon-about-page.jpg"
-          />
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/g-wagon-about-page.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/g-wagon-about-page.jpg"
-            alt="g wagon"
-            width="305"
-            height="400"
-          />
-        </picture>
-        <img
-          class="cs-link-icon"
-          loading="lazy"
-          decoding="async"
-          src="/assets/svgs/insta-icon.svg"
-          alt="instagram"
-          width="48"
-          height="48"
-        />
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================ -->
-<!--                     CTA                      -->
-<!-- ============================================ -->
-
-<section id="cta-51">
-  <div class="cs-container">
-    <div class="cs-content">
-      <span class="cs-topper">Get in Touch</span>
-      <h2 class="cs-title">Experience Luxury On Your Terms</h2>
-      <p class="cs-text">
-        Book our premium vehicles today and enjoy exceptional luxury car hire
-        throughout the UK. Daily, weekly, and chauffeur services available
-        nationwide.
-      </p>
-      <div class="cs-button-box">
-        <a href="/our-fleet" class="cs-button-solid">Our Fleet</a>
-        <a href="/contact" class="cs-button-solid">Contact Us</a>
-      </div>
-    </div>
-  </div>
 </section>
 
 {% endblock %}

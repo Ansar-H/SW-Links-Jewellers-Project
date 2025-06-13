@@ -1,7 +1,7 @@
 ---
-title: "Southwest Prestige Hire | Luxury Vehicle Hire & Chauffeur Services UK"
-description: "Experience premium luxury vehicle hire and professional chauffeur services across the UK. Offering BMW, Audi, Mercedes and more for weddings, proms, corporate events and special occasions."
-preloadImg: "/assets/images/homepage-hero-image.jpg"
+title: "Southwest Link Jewellers | Trusted Jewellery Specialists in Bristol"
+description: "Discover our stunning collection of rings, necklaces, bracelets, and luxury timepieces. From everyday elegance to statement pieces, we offer exceptional quality jewellery at honest prices, plus expert repairs and custom design services."
+preloadImg: "/assets/images/diamonds-homepage.jpg"
 permalink: "/"
 tags: "sitemap" # Sitemap will use all pages in content/, due to content.json. As index.html is not included in content/ we need to manually add the sitemap tag to this page (only).
 eleventyNavigation:
@@ -12,8 +12,6 @@ eleventyNavigation:
 {% extends "layouts/base.html" %} {% block head %}
 <link rel="stylesheet" href="/assets/css/local.css" />
 <link rel="stylesheet" href="/assets/css/critical.css" />
-<!-- Add AOS CSS - this was missing -->
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 <!-- Script for Netlify Identity -->
 <script
@@ -30,19 +28,6 @@ eleventyNavigation:
       }
     });
   }
-</script>
-
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    console.log("AOS object:", AOS);
-    AOS.init({
-      duration: 800,
-      easing: "ease-out",
-      once: true,
-      debug: true,
-    });
-  });
 </script>
 
 <!-- JSON Schema Markup -->
@@ -88,524 +73,641 @@ eleventyNavigation:
 <!--                    Hero                      -->
 <!-- ============================================ -->
 
-<section id="hero-1295">
-  <div class="cs-container">
-    <div class="cs-content">
-      <img
-        class="cs-crown"
-        src="/assets/images/crown-image.png"
-        alt="Crown icon"
-        width="150"
-        height="150"
-      />
-      <h1 class="cs-title">Southwest Prestige Hire</h1>
-      <p class="cs-text">Vehicle Hire & Chauffeur Services Across the UK</p>
-      <a href="/contact" class="cs-button-solid">Find A Car</a>
+<section id="hero-2041">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Jewellery Specialists</span>
+            <h1 class="cs-title">Bristol's Trusted Jewellery Specialists</h1>
+            <p class="cs-text">Discover our stunning collection of rings, necklaces, bracelets, and luxury timepieces. From everyday elegance to statement pieces, we offer exceptional quality jewellery at honest prices, plus expert repairs and custom design services.</p>
+            <a href="/our-collection" class="cs-button-solid">Shop Our Collection</a>
+            <!--Bottom Corners-->
+        </div>
+        <form class="cs-form" id="cs-form-2041" name="Landing Form" data-netlify>
+            <label class="cs-label">
+                <div class="cs-flex">
+                    Email <span class="span cs-color">*</span>
+                </div>
+                <input class="cs-input" required type="text" id="email-2041" name="email" placeholder="Your email">
+            </label>
+            <label class="cs-label">
+                <div class="cs-flex">
+                    Phone <span class="span cs-color">*</span>
+                </div>
+                <input class="cs-input" required type="tel" id="phone-2041" name="phone" placeholder="Phone number">
+            </label>
+            <label class="cs-label">
+                <div class="cs-flex">
+                    Message <span class="span cs-color">*</span>
+                </div>
+                <input class="cs-input" required type="text" id="message-2041" name="message" placeholder="Diamond ring">
+            </label>
+            <button class="cs-button-solid cs-submit">Contact Us</button>
+        </form>
     </div>
-  </div>
 
-  <!--Background Image, background image added in CSS at 1600px wide for parallax effect-->
-  <picture class="cs-background">
-    <!--Mobile Image-->
-    <source
-      media="(max-width: 1023px)"
-      srcset="/assets/images/homepage-hero-image-m.jpg"
-    />
-    <!--Tablet and above Image-->
-    <source
-      media="(min-width: 1024px)"
-      srcset="/assets/images/homepage-hero-image.jpg"
-    />
-    <img
-      loading="lazy"
-      decoding="async"
-      src="/assets/images/homepage-hero-image.jpg"
-      alt="Audi interior"
-      width="1280"
-      height="568"
-    />
-  </picture>
-</section>
-
-<!-- ============================================ -->
-<!--             Side By Side Reverse             -->
-<!-- ============================================ -->
-
-<section id="sbs-r-870">
-  <div class="cs-container">
-    <picture class="cs-picture" data-aos="fade-left" data-aos-delay="200">
-      <!--Mobile Image-->
-      <source
-        media="(max-width: 600px)"
-        srcset="/assets/images/lamborghini-urus-front.jpg"
-      />
-      <!--Tablet and above Image-->
-      <source
-        media="(min-width: 601px)"
-        srcset="/assets/images/lamborghini-urus-front.jpg"
-      />
-      <img
-        loading="lazy"
-        decoding="async"
-        src="/assets/images/lamborghini-urus-front.jpg"
-        alt="lamborghini urus"
-        width="630"
-        height="775"
-      />
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/diamonds-homepage.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/diamonds-homepage.jpg">
+        <img loading="lazy" decoding="async" src="/assets/images/diamonds-homepage.jpg" alt="Diamonds" width="1920" height="1200" aria-hidden="true">
     </picture>
-    <div class="cs-content" data-aos="fade-right" data-aos-delay="200">
-      <span class="cs-topper">Luxury Vehicle Hire</span>
-      <h2 class="cs-title">Daily, Weekly & Weekend Hire</h2>
-      <p class="cs-text">
-        Southwest Prestige cars are available for daily, weekly & weekend hire.
-        We offer Chauffeur Services for Weddings, Proms, Events, Corporate &
-        Music Videos. Super Cars available upon request.
-      </p>
-      <p class="cs-text">
-        Experience the ultimate in luxury transportation with our meticulously
-        maintained fleet of premium vehicles. Whether you need transportation
-        for a special occasion or business travel, our professional service
-        ensures your journey is comfortable, stylish, and memorable.
-      </p>
-      <a href="/contact" class="cs-button-solid">Bookings</a>
-    </div>
-  </div>
 </section>
 
 <!-- ============================================ -->
-<!--                  Services                    -->
+<!--                    Services                  -->
 <!-- ============================================ -->
 
-<section id="services-2198">
-  <div class="cs-container">
-    <div class="cs-content">
-      <span class="cs-topper">What We Do</span>
-      <h2 class="cs-title">Chauffeur & Hire Services</h2>
-    </div>
-    <ul class="cs-card-group">
-      <li class="cs-item">
-        <a class="cs-link">
-          <picture class="cs-picture">
-            <!--Mobile Image-->
-            <source
-              media="(max-width: 600px)"
-              srcset="/assets/images/chauffeur-hire-homepage.jpg"
-            />
-            <!--Tablet and above Image-->
-            <source
-              media="(min-width: 601px)"
-              srcset="/assets/images/chauffeur-hire-homepage.jpg"
-            />
-            <img
-              loading="lazy"
-              decoding="async"
-              src="/assets/images/chauffeur-hire-homepage.jpg"
-              alt="chauffeur"
-              width="413"
-              height="340"
-            />
-          </picture>
-          <div class="cs-flex">
-            <h3 class="cs-h3">Chauffeur Hire</h3>
-          </div>
-          <p class="cs-item-text">
-            Enjoy a new driving experience by taking the wheel of one of our
-            high-end vehicles. Whether it's a weekend getaway, a special
-            occasion or coporate.
-          </p>
-        </a>
-      </li>
-      <li class="cs-item">
-        <a class="cs-link">
-          <picture class="cs-picture">
-            <!--Mobile Image-->
-            <source
-              media="(max-width: 600px)"
-              srcset="/assets/images/wedding-homepage.jpg"
-            />
-            <!--Tablet and above Image-->
-            <source
-              media="(min-width: 601px)"
-              srcset="/assets/images/wedding-homepage.jpg"
-            />
-            <img
-              loading="lazy"
-              decoding="async"
-              src="/assets/images/wedding-homepage.jpg"
-              alt="wedding photography"
-              width="413"
-              height="340"
-            />
-          </picture>
-          <div class="cs-flex">
-            <h3 class="cs-h3">Weddings</h3>
-          </div>
-          <p class="cs-item-text">
-            Trust us to enhance the magic of your special day, offering not just
-            transportation but an experience of unparalleled reliability &
-            elegance.
-          </p>
-        </a>
-      </li>
-      <li class="cs-item">
-        <a class="cs-link">
-          <picture class="cs-picture">
-            <!--Mobile Image-->
-            <source
-              media="(max-width: 600px)"
-              srcset="/assets/images/prom-homepage.jpg"
-            />
-            <!--Tablet and above Image-->
-            <source
-              media="(min-width: 601px)"
-              srcset="/assets/images/prom-homepage.jpg"
-            />
-            <img
-              loading="lazy"
-              decoding="async"
-              src="/assets/images/prom-homepage.jpg"
-              alt="prom"
-              width="413"
-              height="340"
-            />
-          </picture>
-          <div class="cs-flex">
-            <h3 class="cs-h3">Proms</h3>
-          </div>
-          <p class="cs-item-text">
-            In a night of glamour and sophistication with friends,
-            treat yourself to luxury transportation to help make your prom night
-            extra special to remember.
-          </p>
-        </a>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<!-- ============================================ -->
-<!--                Side By Side                  -->
-<!-- ============================================ -->
-
-<section id="sbs-2291">
-  <div class="cs-container">
-    <!-- Left Content Section-->
-    <div class="cs-content">
-      <span class="cs-topper">Premium Service</span>
-      <h2 class="cs-title">Luxury Chauffeur Services</h2>
-      <p class="cs-text">
-        Experience the epitome of luxury travel with our professional chauffeur
-        services. We provide exceptional airport transfers from Bristol to
-        London, corporate travel solutions, and special event transportation
-        throughout the UK. Our experienced chauffeurs ensure a smooth,
-        sophisticated journey in any of our premium vehicles.
-      </p>
-      <p class="cs-text">
-        From Mercedes and BMW executive sedans to Range Rovers and supercars,
-        our entire fleet is available with professional drivers. Enjoy the
-        luxury without the stress of driving yourself.
-      </p>
-      <div class="cs-features">
-        <h3 class="cs-h3">Key Features:</h3>
-        <ul class="cs-ul">
-          <li class="cs-li">
-            Nationwide airport transfers with flight monitoring
-          </li>
-          <li class="cs-li">Corporate events and executive business travel</li>
-          <li class="cs-li">Wedding and special occasion transport services</li>
-          <li class="cs-li">
-            Hourly and daily chauffeur hire options available
-          </li>
+<section id="services-1729">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex-group">
+                <span class="cs-topper">Our Services</span>
+                <h2 class="cs-title">Complete Jewellery Services In Bristol</h2>
+            </div>
+            <p class="cs-text">
+                From our stunning in-store collection to bespoke custom designs, we offer comprehensive jewellery services. Whether you're looking for the perfect engagement ring, need expert repairs, or want to sell your precious items, our Bristol team provides exceptional service and craftsmanship you can trust.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)"
+                            srcset="/assets/images/collection.jpg">
+                    <source media="(min-width: 601px)"
+                            srcset="/assets/images/collection.jpg">
+                    <img decoding="async"
+                            src="/assets/images/collection.jpg"
+                            alt="Jewellery Collection" width="413" height="374" aria-hidden="true" loading="lazy">
+                </picture>
+                <div class="cs-details">
+                    <span class="cs-tag">JEWELLERY SALES</span>
+                    <h3 class="cs-h3">Premium Collection</h3>
+                    <p class="cs-item-text">
+                        Browse our selection of rings, necklaces, bracelets, and luxury watches. Quality pieces at honest prices.
+                    </p>
+                    <a href="/our-collection" class="cs-link">
+                        Shop Collection
+                        <img class="cs-arrow" loading="lazy" decoding="async" src="/assets/svgs/chevron-right-white.svg" alt="chevron right" width="20" height="20" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)"
+                            srcset="/assets/images/custom-design2.jpg">
+                    <source media="(min-width: 601px)"
+                            srcset="/assets/images/custom-design2.jpg">
+                    <img decoding="async"
+                            src="/assets/images/custom-design2.jpg"
+                            alt="Custom Design" width="413" height="374" aria-hidden="true" loading="lazy">
+                </picture>
+                <div class="cs-details">
+                    <span class="cs-tag">CUSTOM DESIGN</span>
+                    <h3 class="cs-h3">Unique Designs</h3>
+                    <p class="cs-item-text">
+                        Create your perfect piece with our custom design service. From engagement rings to unique pendants, we bring your vision to life.
+                    </p>
+                    <a href="/contact" class="cs-link">
+                        Start Design
+                        <img class="cs-arrow" loading="lazy" decoding="async" src="/assets/svgs/chevron-right-white.svg" alt="chevron right" width="20" height="20" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)"
+                            srcset="/assets/images/repairs.jpg">
+                    <source media="(min-width: 601px)"
+                            srcset="/assets/images/repairs.jpg">
+                    <img decoding="async"
+                            src="/assets/images/repairs.jpg"
+                            alt="Jewellery Repairs" width="413" height="374" aria-hidden="true" loading="lazy">
+                </picture>
+                <div class="cs-details">
+                    <span class="cs-tag">REPAIRS</span>
+                    <h3 class="cs-h3">Expert Repairs</h3>
+                    <p class="cs-item-text">
+                        Professional jewellery and watch repair services. We restore your treasured pieces with precision and care.
+                    </p>
+                    <a href="/contact" class="cs-link">
+                        Book Repair
+                        <img class="cs-arrow" loading="lazy" decoding="async" src="/assets/svgs/chevron-right-white.svg" alt="chevron right" width="20" height="20" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 600px)"
+                            srcset="/assets/images/sell-gold.jpg">
+                    <source media="(min-width: 601px)"
+                            srcset="/assets/images/sell-gold.jpg">
+                    <img decoding="async"
+                            src="/assets/images/sell-gold.jpg"
+                            alt="Sell Your Gold" width="413" height="374" aria-hidden="true" loading="lazy">
+                </picture>
+                <div class="cs-details">
+                    <span class="cs-tag">BUYING SERVICE</span>
+                    <h3 class="cs-h3">Sell Your Gold</h3>
+                    <p class="cs-item-text">
+                        Get competitive prices for your unwanted jewellery, gold, silver, and precious metals. Fair valuations guaranteed."
+                    </p>
+                    <a href="/contact" class="cs-link">
+                        Get Quote
+                        <img class="cs-arrow" loading="lazy" decoding="async" src="/assets/svgs/chevron-right-white.svg" alt="chevron right" width="20" height="20" aria-hidden="true">
+                    </a>
+                </div>
+            </li>
         </ul>
-      </div>
-      <a
-        class="cs-button-solid"
-        aria-label="learn more about our programs"
-        href="/contact"
-        >Request A Quote</a
-      >
     </div>
-    <!-- Right Image Section -->
-    <div class="cs-image-group">
-      <!--Image-->
-      <picture class="cs-picture">
-        <source
-          media="(max-width: 600px)"
-          srcset="/assets/images/chauffeur-services.jpg"
-        />
-        <source
-          media="(min-width: 601px)"
-          srcset="/assets/images/chauffeur-services.jpg"
-        />
-        <img
-          loading="lazy"
-          decoding="async"
-          src="/assets/images/chauffeur-services.jpg"
-          alt="meeting"
-          width="630"
-          height="630"
-          aria-hidden="true"
-        />
-      </picture>
-    </div>
-  </div>
 </section>
 
 <!-- ============================================ -->
-<!--                  Side By Side                -->
+<!--                   Services                   -->
 <!-- ============================================ -->
 
-<section id="sbs-2295">
-  <div class="cs-container">
-    <div class="cs-image-group">
-      <!--Main Image-->
-      <div class="cs-picture-wrapper1">
-        <picture class="cs-picture cs-picture1">
-          <!--Mobile Image-->
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/bmw-m5-back.jpg"
-          />
-          <!--Tablet and above Image-->
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/bmw-m5-back.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/bmw-m5-back.jpg"
-            alt="bmw m5"
-            width="272"
-            height="337"
-          />
-        </picture>
-      </div>
-      <!--Small Image-->
-      <div class="cs-picture-wrapper2">
-        <picture class="cs-picture cs-picture2">
-          <!--Mobile Image-->
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/bmw-m5-front.jpg"
-          />
-          <!--Tablet and above Image-->
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/bmw-m5-front.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/bmw-m5-front.jpg"
-            alt="bmw m5"
-            width="243"
-            height="367"
-          />
-        </picture>
-      </div>
+<section id="services-2057">
+    <div class="cs-container">
+        <p class="cs-text-large">
+            Premium Jewellery Pieces Carefully Selected For Quality, Style and Exceptional Value.
+        </p>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/gold-chain.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                <h3 class="cs-h3">Gold Jewellery</h3>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/diamond-ring.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                <h3 class="cs-h3">Diamond Rings</h3>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/watch.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                <h3 class="cs-h3">Luxury Watches</h3>
+            </li>
+        </ul>
     </div>
-    <div class="cs-content">
-      <span class="cs-topper">Luxury Vehicle</span>
-      <h2 class="cs-title">BMW M5 Competition</h2>
-      <p class="cs-text">
-        Experience the perfect balance of luxury sedan comfort and supercar
-        performance with our BMW M5. This high-performance vehicle delivers
-        exceptional driving dynamics while maintaining the refinement expected
-        from a premium executive car.
-      </p>
-      <ul class="cs-ul">
-        <li class="cs-li">4.4L twin-turbo V8 engine with 617 horsepower</li>
-        <li class="cs-li">0-60 mph in just 3.1 seconds</li>
-        <li class="cs-li">
-          M xDrive all-wheel drive system with selectable rear-wheel drive mode
-        </li>
-        <li class="cs-li">8-speed M Steptronic transmission</li>
-        <li class="cs-li">
-          Adaptive M suspension with specific Competition tuning
-        </li>
-        <li class="cs-li">Premium Merino leather interior</li>
-      </ul>
-      <a href="/contact" class="cs-button-solid">Book It!</a>
-    </div>
-  </div>
+    <picture class="cs-picture">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/gold-chains.jpg">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/gold-chains.jpg">
+        <img loading="lazy" decoding="async" src="/assets/images/gold-chains.jpg" alt="Gold Jewellery" width="197" height="197">
+    </picture>
 </section>
 
 <!-- ============================================ -->
-<!--                  Side By Side                -->
+<!--                    Stats                     -->
 <!-- ============================================ -->
 
-<section id="sbs-2296">
-  <div class="cs-container">
-    <div class="cs-image-group">
-      <!--Main Image-->
-      <div class="cs-picture-wrapper1">
-        <picture class="cs-picture cs-picture1">
-          <!--Mobile Image-->
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/audi-rs3-back.jpg"
-          />
-          <!--Tablet and above Image-->
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/audi-rs3-back.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/audi-rs3-back.jpg"
-            alt="audi rs3"
-            width="272"
-            height="337"
-          />
-        </picture>
-      </div>
-      <!--Small Image-->
-      <div class="cs-picture-wrapper2">
-        <picture class="cs-picture cs-picture2">
-          <!--Mobile Image-->
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/audi-rs3-front.jpg"
-          />
-          <!--Tablet and above Image-->
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/audi-rs3-front.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/audi-rs3-front.jpg"
-            alt="audi rs3"
-            width="243"
-            height="367"
-          />
-        </picture>
-      </div>
+<section id="stats-2057">
+    <div class="cs-container">
+        <div class="cs-picture-group">
+            <!-- Thumbnail image (shown by default) -->
+            <picture class="cs-picture" id="video-thumbnail">
+                <source media="(max-width: 600px)" srcset="/assets/images/bracelets5.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/bracelets5.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bracelets5.jpg" alt="Jewellery Services" width="311" height="531">
+            </picture>
+            
+            <!-- Play button overlay -->
+            <button class="cs-link" id="play-button" onclick="playVideo()">
+                <img class="cs-play" src="/assets/svgs/play-icon.svg" alt="Play video" width="19" height="19">
+                Watch our video
+            </button>
+            
+            <!-- Vimeo video (hidden by default) -->
+            <iframe 
+                class="cs-picture" 
+                id="video-player"
+                src=""
+                width="311" 
+                height="531"
+                frameborder="0" 
+                style="display: none;"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+            
+            <div class="cs-box">
+                <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/people.svg" alt="icon" width="19" height="19">
+                <span class="cs-number">200+</span>
+                <p class="cs-stat">Premium pieces available in our Bristol showroom</p>
+            </div>
+        </div>
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Our Collection</span>
+                <h2 class="cs-title">Premium Jewellery Collection Available <br>In-Store Now</h2>
+            </div>
+            <p class="cs-text">
+                Whether you're after a beautiful engagement ring, a timeless necklace, or a luxury watch, our Bristol showroom offers a handpicked range of quality jewellery. We carry trusted brands as well as our own unique designs, so you're sure to find something special—at a price that feels right..
+            </p>
+            <div class="cs-percentage-group">
+                <div class="cs-bar">
+                    <h3 class="cs-h3">
+                        Jewellery Pieces In Stock
+                        <span class="cs-percentage">200+</span>
+                    </h3>
+                    <div class="cs-progress" aria-hidden="true">
+                        <span class="cs-progress-bar"  style="--progress: 85%"></span>
+                    </div>
+                </div>
+                <div class="cs-bar">
+                    <h3 class="cs-h3">
+                        Gold & Diamond Selection
+                        <span class="cs-percentage">50+</span>
+                    </h3>
+                    <div class="cs-progress" aria-hidden="true">
+                        <span class="cs-progress-bar"  style="--progress: 70%"></span>
+                    </div>
+                </div>
+                <div class="cs-bar">
+                    <h3 class="cs-h3">
+                        Watch Collection
+                        <span class="cs-percentage">30+</span>
+                    </h3>
+                    <div class="cs-progress" aria-hidden="true">
+                        <span class="cs-progress-bar"  style="--progress: 50%"></span>
+                    </div>
+                </div>
+            </div>
+            <a class="cs-button-solid" href="/contact">Visit Us</a>
+        </div>
     </div>
-    <div class="cs-content">
-      <span class="cs-topper">Luxury Vehicle</span>
-      <h2 class="cs-title">AUDI RS3 (Hyper) Hatch</h2>
-      <p class="cs-text">
-        Unleash the thrill of performance driving with the Audi RS3. This
-        high-performance hatch combines exhilarating power, cutting-edge
-        technology and sophisticated design with impressive everyday usability.
-      </p>
+</section>
 
-      <ul class="cs-ul">
-        <li class="cs-li">
-          2.5 Litre 5 Cylinder Engine with 450bhp (Stage 1 Remap)
-        </li>
-        <li class="cs-li">0-60 mph in just 3.5 seconds</li>
-        <li class="cs-li">Quattro all-wheel drive system</li>
-        <li class="cs-li">7-speed S tronic dual-clutch transmission</li>
-        <li class="cs-li">RS sport suspension</li>
-        <li class="cs-li">Premium Nappa leather interior</li>
-      </ul>
-      <a href="/contact" class="cs-button-solid">Book It!</a>
+<script>
+function playVideo() {
+    // Hide the thumbnail and play button
+    document.getElementById('video-thumbnail').style.display = 'none';
+    document.getElementById('play-button').style.display = 'none';
+    
+    // Show and load the Vimeo video with the correct hash for unlisted video
+    const video = document.getElementById('video-player');
+    video.src = 'https://player.vimeo.com/video/1092431828?h=b7f43225a5&autoplay=1&title=0&byline=0&portrait=0&badge=0';
+    video.style.display = 'block';
+}
+</script>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery-2281">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">OUR COLLECTION</span>
+                <h2 class="cs-title">Featured Jewellery</h2>
+            </div>
+            <div class="cs-button-group">
+                <button class="cs-button" data-filter="one">
+                    All
+                </button>
+                <button class="cs-button" data-filter="two">
+                    Rings
+                </button>
+                <button class="cs-button" data-filter="three">
+                    Chains
+                </button>
+                <button class="cs-button" data-filter="four">
+                    Bracelets
+                </button>
+            </div>
+        </div>
+        <div class="cs-gallery-wrapper">
+            <!--Gallery 1-->
+            <div class="cs-gallery" data-category="one">
+                <!--Picture 1-->
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/rings3.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/rings3.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/rings3.jpg" alt="Rings" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Rings</span>
+                        <span class="cs-project">Diamond Rings</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/watch.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/watch.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/watch.jpg" alt="Watch" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Silver Watch</span>
+                        <span class="cs-project">Silver Rolex Watch</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/chains6.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/chains6.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/chains6.jpg" alt="Chains" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Chains</span>
+                        <span class="cs-project">Gold Chains</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/rings2.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/rings2.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/rings2.jpg" alt="Rings" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Rings</span>
+                        <span class="cs-project">Gold Ring</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/rings7.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/rings7.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/rings7.jpg" alt="Rings" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Rings</span>
+                        <span class="cs-project">Diamond Ring</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/chains7.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/chains7.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/chains7.jpg" alt="Chains" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Chains</span>
+                        <span class="cs-project">Gold, Rose Gold & Silver Chains</span>
+                    </div>
+                </a>
+            </div>
+            <!--Gallery 2-->
+            <div class="cs-gallery cs-hidden" data-category="two">
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/rings4.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/rings4.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/rings4.jpg" alt="Rings" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Rings</span>
+                        <span class="cs-project">Diamond H Ring</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/rings5.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/rings5.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/rings5.jpg" alt="Rings" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Rings</span>
+                        <span class="cs-project">Diamond Ring</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/rings6.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/rings6.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/rings6.jpg" alt="Rings" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Rings</span>
+                        <span class="cs-project">Diamond Ring</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/rings7.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/rings7.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/rings7.jpg" alt="Rings" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Rings</span>
+                        <span class="cs-project">Diamond Rings</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/rings8.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/rings8.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/rings8.jpg" alt="Rings" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Rings</span>
+                        <span class="cs-project">Gold Ring</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/rings9.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/rings9.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/rings9.jpg" alt="Rings" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Rings</span>
+                        <span class="cs-project">Gold Ace of Spades Ring</span>
+                    </div>
+                </a>
+            </div>
+            <!--Gallery 3-->
+            <div class="cs-gallery cs-hidden" data-category="three">
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/chains.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/chains.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/chains.jpg" alt="Chains" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Chains</span>
+                        <span class="cs-project">Gold Cross Chains</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/chains2.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/chains2.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/chains2.jpg" alt="Chains" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Chains</span>
+                        <span class="cs-project">Gold Rope Chains</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/chains3.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/chains3.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/chains3.jpg" alt="Chains" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Chains</span>
+                        <span class="cs-project">Rose Gold Rope Chain</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/chains4.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/chains4.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/chains4.jpg" alt="Chains" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Chains</span>
+                        <span class="cs-project">Gold Cuban Chain</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/chains5.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/chains5.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/chains5.jpg" alt="Chains" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Chains</span>
+                        <span class="cs-project">Gold Rope Chains</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/chains6.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/chains6.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/chains6.jpg" alt="Chains" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Chains</span>
+                        <span class="cs-project">Gold Cross/Angel Chains</span>
+                    </div>
+                </a>
+            </div>
+            <!--Gallery 4-->
+            <div class="cs-gallery cs-hidden" data-category="four">
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/bracelets.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/bracelets.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/bracelets.jpg" alt="Bracelets" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Bracelets</span>
+                        <span class="cs-project">Gold Bracelet</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/bracelets2.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/bracelets2.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/bracelets2.jpg" alt="Bracelets" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Bracelets</span>
+                        <span class="cs-project">Gold Bracelet</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/bracelets3.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/bracelets3.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/bracelets3.jpg" alt="Bracelets" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Bracelets</span>
+                        <span class="cs-project">Gold Cuban Bracelet</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/bracelets4.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/bracelets4.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/bracelets4.jpg" alt="Bracelets" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Bracelets</span>
+                        <span class="cs-project">Gold Clover Bracelets</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/bracelets5.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/bracelets5.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/bracelets5.jpg" alt="Bracelets" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Bracelets</span>
+                        <span class="cs-project">Gold Bracelets</span>
+                    </div>
+                </a>
+                <a class="cs-image">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)" srcset="/assets/images/bracelets6.jpg">
+                        <source media="(min-width: 601px)" srcset="/assets/images/bracelets6.jpg">
+                        <img loading="lazy" decoding="async" src="/assets/images/bracelets6.jpg" alt="Bracelets" width="305" height="400">
+                    </picture>
+                    <div class="cs-info">
+                        <span class="cs-tag">Bracelets</span>
+                        <span class="cs-project">Gold Bracelets</span>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 <!-- ============================================ -->
-<!--                  Side By Side                -->
+<!--                  Reviews                     -->
 <!-- ============================================ -->
 
-<section id="sbs-2297">
-  <div class="cs-container">
-    <div class="cs-image-group">
-      <!--Main Image-->
-      <div class="cs-picture-wrapper1">
-        <picture class="cs-picture cs-picture1">
-          <!--Mobile Image-->
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/mercedes-cla-back.jpg"
-          />
-          <!--Tablet and above Image-->
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/mercedes-cla-back.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/mercedes-cla-back.jpg"
-            alt="mercedes cla"
-            width="272"
-            height="337"
-          />
-        </picture>
-      </div>
-      <!--Small Image-->
-      <div class="cs-picture-wrapper2">
-        <picture class="cs-picture cs-picture2">
-          <!--Mobile Image-->
-          <source
-            media="(max-width: 600px)"
-            srcset="/assets/images/mercedes-cla-front.jpg"
-          />
-          <!--Tablet and above Image-->
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/mercedes-cla-front.jpg"
-          />
-          <img
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/mercedes-cla-front.jpg"
-            alt="mercedes cla"
-            width="243"
-            height="367"
-          />
-        </picture>
-      </div>
+<section id="reviews-863">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">Trusted by Bristol Customers for Quality & Service</h2>
+            <p class="cs-text">
+                Our customers choose Southwest Link Jewellers for our genuine advice, fair pricing, and exceptional craftsmanship. Whether it’s an engagement ring or a special gift, we’re proud to be part of Bristol’s most memorable moments.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-flex-group">
+                    <span class="cs-name">
+                        Nicolas M.
+                        <span class="cs-job">Engagement Ring Customer</span>
+                    </span>
+                </div>
+                <p class="cs-review">
+                    <em>
+                        "Amazing service! They helped me find the perfect engagement ring within my budget. The quality is outstanding and my fiancé absolutely loves it. Highly recommend!"
+                    </em>
+                </p>
+                <!--Stars-->
+                <img class="cs-stars" aria-hidden="true" src="/assets/svgs/stars.svg" decoding="async" alt="stars" width="108" height="16">
+                <span class="cs-desc">Google</span>
+            </li>
+            <li class="cs-item">
+                <div class="cs-flex-group">
+                    <span class="cs-name">
+                        Emily R.
+                        <span class="cs-job">Necklace Purchase</span>
+                    </span>
+                </div>
+                <p class="cs-review">
+                    <em>
+                        "I was looking for something elegant and timeless, and the staff guided me to the perfect piece. The necklace is stunning and feels really special — I’ve had so many compliments on it already!"
+                    </em>
+                </p>
+                <!--Stars-->
+                <img class="cs-stars" aria-hidden="true" src="/assets/svgs/stars.svg" decoding="async" alt="stars" width="108" height="16">
+                <span class="cs-desc">Instagram</span>
+            </li>
+        </ul>
     </div>
-    <div class="cs-content">
-      <span class="cs-topper">Luxury Vehicle</span>
-      <h2 class="cs-title">Mercedes-Benz CLA45S AMG</h2>
-      <p class="cs-text">
-        Introducing the Mercedes-Benz CLA45S AMG - a sleek and powerful luxury
-        vehicle that combines performance, style and cutting-edge technology for
-        an unparalleled driving experience.
-      </p>
-
-      <ul class="cs-ul">
-        <li class="cs-li">2.0L Turbocharged engine with 416 horsepower</li>
-        <li class="cs-li">0-60 mph in just 4.0 seconds</li>
-        <li class="cs-li">4MATIC+ all-wheel drive system</li>
-        <li class="cs-li">8-speed dual-clutch transmission</li>
-        <li class="cs-li">AMG sport suspension system</li>
-        <li class="cs-li">Available for daily, weekly and weekend hire</li>
-      </ul>
-      <a href="/contact" class="cs-button-solid">Book It!</a>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================ -->
-<!--                     CTA                      -->
-<!-- ============================================ -->
-
-<section id="cta-51">
-  <div class="cs-container">
-    <div class="cs-content">
-      <span class="cs-topper">Get in Touch</span>
-      <h2 class="cs-title">Experience Luxury On Your Terms</h2>
-      <p class="cs-text">
-        Book our premium vehicles today and enjoy exceptional luxury car hire
-        throughout the UK. Daily, weekly, and chauffeur services available
-        nationwide.
-      </p>
-      <div class="cs-button-box">
-        <a href="/about" class="cs-button-solid">About Us</a>
-        <a href="/our-fleet" class="cs-button-solid">Our Fleet</a>
-        <a href="/contact" class="cs-button-solid">Contact Us</a>
-      </div>
-    </div>
-  </div>
+    <!--Top Left Quote-->
+    <img class="cs-quote1" aria-hidden="true" src="/assets/svgs/quote.svg" decoding="async" alt="quote icon" width="194" height="160">
+    <!--Top Right Quote-->
+    <img class="cs-quote2" aria-hidden="true" src="/assets/svgs/quote.svg" decoding="async" alt="quote icon" width="194" height="160">
 </section>
 
 {% endblock %}

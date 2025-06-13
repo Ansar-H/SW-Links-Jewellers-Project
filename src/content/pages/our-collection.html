@@ -1,0 +1,1900 @@
+---
+title: "Our Collection | Southwest Link Jewellers"
+description: "Explore our premium collection of jewellery and watches. From statement pieces to subtle staples, every item in our collection is carefully chosen to offer style, value, and craftsmanship you can trust."
+permalink: "our-collection/"
+eleventyNavigation:
+  key: Our Fleet
+  order: 500
+---
+
+{% extends "layouts/base.html" %} {% block head %}
+<link rel="stylesheet" href="/assets/css/our-collection.css" />
+{% endblock %} {% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1949">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Premium Jewellery for Every Moment</h1>
+            <p class="cs-text">We specialise in selling high-quality jewellery that blends timeless design with everyday elegance. From statement pieces to subtle staples, every item in our collection is carefully chosen to offer style, value, and craftsmanship you can trust.</p>
+            <a href="#" class="cs-button-solid" id="scroll-to-collection">Explore The Collection</a>
+            <script>
+                document.getElementById('scroll-to-collection').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.getElementById('collection-1602').scrollIntoView({ behavior: 'smooth' });
+                });
+            </script>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <h3 class="cs-h3">Gold Chains & Bracelets</h3>
+                <p class="cs-item-text">
+                    Explore our best-selling gold pieces — from classic Cuban links to custom-made bracelets.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Custom Engagement Rings</h3>
+                <p class="cs-item-text">
+                    Handcrafted rings made to order, designed to match your story and your style.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Luxury Watches</h3>
+                <p class="cs-item-text">
+                    A curated selection of premium timepieces for every occasion — available in-store and online.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">Everyday Essentials</h3>
+                <p class="cs-item-text">
+                    Stylish rings, pendants, and earrings perfect for gifting or daily wear, all at honest prices.
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/diamonds-homepage.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/diamonds-homepage.jpg">
+        <img decoding="async" src="/assets/images/diamonds-homepage.jpg" alt="diamonds" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                  Collection                  -->
+<!-- ============================================ -->
+
+<section id="collection-1602">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">New Collection</h2>
+            <div class="cs-button-group">
+                <button class="cs-button" data-filter="one">
+                    Rings
+                </button>
+                <button class="cs-button" data-filter="two">
+                    Watches
+                </button>
+                <button class="cs-button" data-filter="three">
+                    Chains
+                </button>
+                <button class="cs-button" data-filter="four">
+                    Bracelets
+                </button>
+            </div>
+        </div>
+        <div class="cs-listing-wrapper">
+            <!--Listing 1-->
+            <div class="cs-listing" data-category="one">
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/rings3.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/rings3.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/rings3.jpg"
+                                        alt="rings" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-20%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Rings</span>
+                            <h3 class="cs-name">Diamond-Cut Rings Set</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img class="cs-basket"
+                                            src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/rings4.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/rings4.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/rings4.jpg"
+                                        alt="rings" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Custom Rings</span>
+                            <h3 class="cs-name">Initial “H” Iced-Out Ring</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/rings5.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/rings5.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/rings5.jpg"
+                                        alt="rings" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-5%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Engagement Rings</span>
+                            <h3 class="cs-name">Diamond Cluster Ring</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/rings7.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/rings7.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/rings7.jpg"
+                                        alt="rings" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Custom Rings</span>
+                            <h3 class="cs-name">Star & Circle Iced Ring Duo</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/rings8.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/rings8.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/rings8.jpg"
+                                        alt="rings" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-15%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Gold Rings</span>
+                            <h3 class="cs-name">Gold and Silver Stripe Ring</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/rings9.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/rings9.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/rings9.jpg"
+                                        alt="rings" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-5%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Statement Rings</span>
+                            <h3 class="cs-name">Gold Ace of Spades Ring</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/rings11.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/rings11.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/rings11.jpg"
+                                        alt="rings" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Custom Rings</span>
+                            <h3 class="cs-name">Black & Green Clover Duo Rings</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/rings12.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/rings12.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/rings12.jpg"
+                                        alt="rings" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-20%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Gold Rings</span>
+                            <h3 class="cs-name">Luxury Screw Motif Band Set</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/rings13.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/rings13.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/rings13.jpg"
+                                        alt="rings" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Statement Rings</span>
+                            <h3 class="cs-name">Iced Cuban Link Ring</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--Listing 2-->
+            <div class="cs-listing cs-hidden" data-category="two">
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/watch.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/watch.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/watch.jpg"
+                                        alt="watch" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Luxury Watches</span>
+                            <h3 class="cs-name">Rolex Daytona Silver Dial</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img class="cs-basket"
+                                            src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/watch2.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/watch2.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/watch2.jpg"
+                                        alt="watch" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Luxury Watches</span>
+                            <h3 class="cs-name">Rolex Datejust Iced Roman Dial</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/watch3.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/watch3.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/watch3.jpg"
+                                        alt="watch" width="305" height="400">
+                            </picture>
+                        </div>  
+                        <div class="cs-details">
+                            <span class="cs-category">Luxury Watches</span>
+                            <h3 class="cs-name">Cartier Santos Silver Steel</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/watch5.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/watch5.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/watch5.jpg"
+                                        alt="watch" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Luxury Watches</span>
+                            <h3 class="cs-name">Rolex Datejust Chocolate Dial</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/watch6.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/watch6.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/watch6.jpg"
+                                        alt="watch" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Luxury Watches</span>
+                            <h3 class="cs-name">Rolex Datejust Blue Dial Two Tone</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/watch7.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/watch7.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/watch7.jpg"
+                                        alt="watch" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Luxury Watches</span>
+                            <h3 class="cs-name">Rolex GMT-Master II “Root Beer”</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/watch8.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/watch8.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/watch8.jpg"
+                                        alt="watch" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Luxury Watches</span>
+                            <h3 class="cs-name">Rolex Datejust Clover Dial Gold</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/watch9.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/watch9.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/watch9.jpg"
+                                        alt="watch" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Luxury Watches</span>
+                            <h3 class="cs-name">Rolex Datejust Rose Gold Motif</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/watch10.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/watch10.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/watch10.jpg"
+                                        alt="watch" width="305" height="400">
+                            </picture>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Luxury Watches</span>
+                            <h3 class="cs-name">Rolex Datejust Diamond Bezel</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--Listing 3-->
+            <div class="cs-listing cs-hidden" data-category="three">
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/chains.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/chains.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/chains.jpg"
+                                        alt="chains" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-20%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Pendants</span>
+                            <h3 class="cs-name">Gold Cross Pendant & Chain Set</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img class="cs-basket"
+                                            src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/chains2.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/chains2.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/chains2.jpg"
+                                        alt="chains" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Custom Chains</span>
+                            <h3 class="cs-name">Iced Cuban Link & Rope Chain Duo</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/chains4.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/chains4.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/chains4.jpg"
+                                        alt="chains" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-5%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Statement Chains</span>
+                            <h3 class="cs-name">Thick Gold Cuban Link Chain</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/chains6.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/chains6.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/chains6.jpg"
+                                        alt="chains" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Custom Chains</span>
+                            <h3 class="cs-name">Angel, Cross & Dove Necklace Trio</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/chains7.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/chains7.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/chains7.jpg"
+                                        alt="chains" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-15%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Statement Chains</span>
+                            <h3 class="cs-name">3-Tone Cuban Chains</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/chains11.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/chains11.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/chains11.jpg"
+                                        alt="chains" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-5%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Statement Chains</span>
+                            <h3 class="cs-name">Rope Chain Set</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/chains14.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/chains14.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/chains14.jpg"
+                                        alt="chains" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Custom Pendants</span>
+                            <h3 class="cs-name">Rope Chain Letter Pendant Set</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/chains3.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/chains3.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/chains3.jpg"
+                                        alt="chains" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-20%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Gold Chains</span>
+                            <h3 class="cs-name">Rose Gold Screw Link Chain</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/chains5.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/chains5.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/chains5.jpg"
+                                        alt="chains" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Statement Chains</span>
+                            <h3 class="cs-name">Rope Chain Set</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--Listing 4-->
+            <div class="cs-listing cs-hidden" data-category="four">
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-20%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Tennis Bracelets</span>
+                            <h3 class="cs-name">Diamond Tennis Bracelet Set</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img class="cs-basket"
+                                            src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets2.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets2.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets2.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Gold Bracelets</span>
+                            <h3 class="cs-name">Gold Braided Link Bracelet</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets4.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets4.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets4.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-5%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Charm Bracelets</span>
+                            <h3 class="cs-name">Emerald Clover Charm Bracelet</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets3.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets3.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets3.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Cuban Bracelets</span>
+                            <h3 class="cs-name">Thick Gold Miami Cuban Bracelet</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets5.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets5.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets5.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-15%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Gift Sets</span>
+                            <h3 class="cs-name">Bracelet Gift Box Trio (Gold, Rope & Cuban)</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets6.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets6.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets6.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-5%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Designer Bracelets</span>
+                            <h3 class="cs-name">Golden Lion Link Chain Bracelet</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets7.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets7.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets7.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Duo Sets</span>
+                            <h3 class="cs-name">White Rope & Steel Cuff Bracelet Duo</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets8.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets8.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets8.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-20%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Clover Bracelets</span>
+                            <h3 class="cs-name">Multicolour Clover Motif Bracelets</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets10.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets10.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets10.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-10%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Bangle Bracelets</span>
+                            <h3 class="cs-name">Classic Screw-In Gold Bangles</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets9.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets9.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets9.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-20%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Clover Bracelets</span>
+                            <h3 class="cs-name">White Clover Charm Chain Bracelet</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets11.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets11.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets11.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-20%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Cuban Bracelets</span>
+                            <h3 class="cs-name">Two-Tone Curb Chain Bracelet</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                                <div class="cs-item">
+                    <a href="/contact" class="cs-link">
+                        <div class="cs-picture-group">
+                            <picture class="cs-picture">
+                                <source media="(max-width: 600px)"
+                                        srcset="/assets/images/bracelets12.jpg">
+                                <source media="(min-width: 601px)"
+                                        srcset="/assets/images/bracelets12.jpg">
+                                <img loading="lazy" decoding="async"
+                                        src="/assets/images/bracelets12.jpg"
+                                        alt="bracelets" width="305" height="400">
+                            </picture>
+                            <span class="cs-offer">-20%</span>
+                        </div>
+                        <div class="cs-details">
+                            <span class="cs-category">Minimalist Bangles</span>
+                            <h3 class="cs-name">Minimalist Cross-End Bangles</h3>
+                            <div class="cs-actions">
+                                <div class="cs-flex">
+                                    <div class="cs-stars">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                        <img class="cs-star"
+                                                src="/assets/svgs/review-star.svg"
+                                                alt="star" height="24" width="24" loading="lazy" decoding="async">
+                                    </div>
+                                </div>
+                                <button class="cs-buy">
+                                    <img src="/assets/svgs/bag.svg"
+                                            alt="buy" height="24" width="24" loading="lazy" decoding="async">
+                                </button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-64">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Reviews</span>
+            <h2 class="cs-title">What Our Customers Say</h2>
+            <p class="cs-text">
+                Our customers' satisfaction is our greatest achievement. Read what they have to say about their experience with Southwest Link Jewellers and discover why we're Bristol's trusted choice for fine jewellery.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-stars.svg" alt="stars" width="116" height="20">
+                <span class="cs-name">Emma R.</span>
+                <span class="cs-desc">Bristol, UK</span>
+                <p class="cs-item-text">
+                    <em>"Excellent custom design service. They created a unique necklace exactly as I envisioned. The craftsmanship is superb and the team was so patient with all my questions."</em>
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-stars.svg" alt="stars" width="116" height="20">
+                <span class="cs-name">James K.</span>
+                <span class="cs-desc">Bristol, UK</span>
+                <p class="cs-item-text">
+                    <em>"Best gold buying experience I've had. Fair prices, transparent process, and friendly staff. Definitely the most trustworthy jewellers in Bristol."</em>
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-stars.svg" alt="stars" width="116" height="20">
+                <span class="cs-name">Michael T.</span>
+                <span class="cs-desc">Bristol, UK</span>
+                <p class="cs-item-text">
+                    <em>"Amazing service! They helped me find the perfect engagement ring within my budget. The quality is outstanding and my fiancé absolutely loves it. Highly recommend Southwest Link!"</em>
+                </p>
+            </li>
+        </ul>
+        <a aria-label="Contact Us" href="/contact" class="cs-button-solid">Contact Us</a>
+    </div>
+</section>
+
+{% endblock %}
