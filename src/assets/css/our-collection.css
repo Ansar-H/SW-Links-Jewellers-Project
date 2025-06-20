@@ -150,6 +150,16 @@
     background: linear-gradient(0deg, rgba(247, 247, 247, 0.95) 26%, rgba(247, 247, 247, 0) 70.26%);
     opacity: 1;
   }
+  #hero-1949 .cs-title {
+    /* 39px - 61px */
+    font-size: clamp(2.4375rem, 5vw, 3.8125rem);
+    color: #fff;
+  }
+  #hero-1949 .cs-text {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: #e8e8e8;
+  }
 }
 /* Large Desktop Parallax Effect - 100px */
 @media only screen and (min-width: 100rem) {
