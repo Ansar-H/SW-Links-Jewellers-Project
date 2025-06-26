@@ -16,130 +16,57 @@ eleventyNavigation:
 <!--                    Hero                      -->
 <!-- ============================================ -->
 
-<section id="hero-2219">
+<section id="hero-998">
     <div class="cs-container">
         <div class="cs-content">
-            <h1 class="cs-title">About Southwest Link Jewellers</h1>
-            <p class="cs-text">
+            <span class="cs-topper">About Us</span>
+            <!--Logo-->
+            <picture class="cs-logo">
+                <source media="(max-width: 600px)" srcset="/assets/images/southwest-link-jewellers-logo2.jpg">
+                <source media="(min-width: 601px)" srcset="/assets/images/southwest-link-jewellers-logo2.jpg">
+                <img decoding="async" src="/assets/images/southwest-link-jewellers-logo2.jpg" alt="Southwest Link Jewellers Logo" width="614" height="166">
+                </picture>
+                <p class="cs-text">
                 What started as two friends collecting jewellery around Bristol has grown into a trusted local business. At Southwest Link Jewellers, we're proud to offer quality pieces, honest prices, and a personal touch. Every item we sell reflects our passion for great craftsmanship and genuine service.
-            </p>
-            <div class="cs-video-group" onclick="playAboutVideo()">
-                <div class="cs-wrapper">
-                    <!-- Video thumbnail (shown by default) -->
-                    <picture class="cs-picture" id="video-thumbnail-about">
-                        <source media="(max-width: 600px)" srcset="/assets/images/bracelets5.jpg">
-                        <source media="(min-width: 601px)" srcset="/assets/images/bracelets5.jpg">
-                        <img loading="lazy" decoding="async" src="/assets/images/bracelets5.jpg" alt="Southwest Link Jewellers Video" width="630" height="400">
-                    </picture>
-                    
-                    <!-- Vimeo Video Container (hidden by default) -->
-                    <div class="cs-video-container" id="video-container-about" style="display: none;">
-                        <div>
-                            <iframe 
-                                id="vimeo-player-about"
-                                src="" 
-                                frameborder="0" 
-                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
-                                title="Southwest Link Jewellers Video">
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
-                <button class="cs-play" id="play-button-about" aria-label="click to play video">
-                    <img src="/assets/svgs/play-icon2.svg" alt="play icon" width="120" height="120" aria-hidden="true" decoding="async">
-                </button>
-            </div>
+                </p>
+                <a href="/contact" class="cs-button-solid">Contact Us</a>
         </div>
-        <picture class="cs-background">
-            <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="/assets/images/office.jpg">
-            <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="/assets/images/office.jpg">
-            <img loading="lazy" decoding="async" src="/assets/images/office.jpg" alt="office" width="1280" height="568">
-        </picture>
     </div>
+    <!--Background Image-->
+    <!--Image is also set as background image in CSS at 1400px for parallax effect-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/office.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/office.jpg">
+        <img decoding="async" src="/assets/images/office.jpg" alt="Southwest Link Jewellers Office" width="1920" height="1000">
+        </picture>
 </section>
-
-<script>
-function playAboutVideo() {
-    // Hide the thumbnail and play button
-    document.getElementById('video-thumbnail-about').style.display = 'none';
-    document.getElementById('play-button-about').style.display = 'none';
-    
-    // Show the video container
-    const videoContainer = document.getElementById('video-container-about');
-    videoContainer.style.display = 'block';
-    
-    // Load the Vimeo video with autoplay
-    const iframe = document.getElementById('vimeo-player-about');
-    iframe.src = 'https://player.vimeo.com/video/1092485359?h=09deb5ee64&badge=0&autopause=0&autoplay=1&player_id=0&app_id=58479';
-}
-
-// Load Vimeo Player API
-const script = document.createElement('script');
-script.src = 'https://player.vimeo.com/api/player.js';
-document.head.appendChild(script);
-</script>
 
 <!-- ============================================ -->
 <!--                Side By Side                  -->
 <!-- ============================================ -->
 
-<section id="sbs-1560">
+<section id="sbs-598">
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/southwest-link-jewellers-logo.jpg">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/southwest-link-jewellers-logo.jpg">
+        <img loading="lazy" decoding="async" src="/assets/images/southwest-link-jewellers-logo.jpg" alt="Southwest Link Jewellers Logo" width="960" height="796">
+    </picture>
     <div class="cs-container">
-        <div class="cs-image-group">
-            <!--Top left image-->
-            <picture class="cs-picture cs-picture1">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="/assets/images/rings7.jpg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="/assets/images/rings7.jpg">
-                <img loading="lazy" decoding="async" src="/assets/images/rings7.jpg" alt="rings" width="305" height="265">
-            </picture>
-            <!--Top Right image-->
-            <picture class="cs-picture cs-picture2">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="/assets/images/watch2.jpg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="/assets/images/watch2.jpg">
-                <img loading="lazy" decoding="async" src="/assets/images/watch2.jpg" alt="watch" width="197" height="265">
-            </picture>
-            <!--Bottom Left image-->
-            <picture class="cs-picture cs-picture3">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="/assets/images/chains7.jpg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="/assets/images/chains7.jpg">
-                <img loading="lazy" decoding="async" src="/assets/images/chains7.jpg" alt="chains" width="217" height="230">
-            </picture>
-            <!--Bottom right image-->
-            <picture class="cs-picture cs-picture4">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="/assets/images/rings8.jpg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="/assets/images/rings8.jpg">
-                <img loading="lazy" decoding="async" src="/assets/images/rings8.jpg" alt="rings" width="304" height="212">
-            </picture>
-            <!--Middle image-->
-            <picture class="cs-picture cs-picture5">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="/assets/images/watch.jpg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="/assets/images/watch.jpg">
-                <img loading="lazy" decoding="async" src="/assets/images/watch.jpg" alt="watch" width="305" height="445">
-            </picture>
-        </div>
         <div class="cs-content">
-            <span class="cs-topper">About us</span>
+            <span class="cs-topper">About Us</span>
             <h2 class="cs-title">Our Bristol Story</h2>
             <p class="cs-text">
-                Southwest Link Jewellers began with two friends united by a shared passion for beautiful jewellery. What started as collecting and trading pieces quickly evolved into something much bigger. We began investing in gold, creating our first bracelets, and driving around Bristol making personal deliveries to our growing customer base. <br><br>
-                
-                Those early days taught us the importance of building genuine relationships with our customers. We learned that people don't just buy jewellery - they invest in memories, celebrate milestones, and express their personal style. This understanding became the foundation of everything we do. <br><br>
-                
+                Southwest Link Jewellers began with two friends united by a shared passion for beautiful jewellery. What started as collecting and trading pieces quickly evolved into something much bigger. We began investing in gold, creating our first bracelets, and driving around Bristol making personal deliveries to our growing customer base.
+            </p>
+            <p class="cs-text">
+                Those early days taught us the importance of building genuine relationships with our customers. We learned that people don't just buy jewellery - they invest in memories, celebrate milestones, and express their personal style. This understanding became the foundation of everything we do.
+            </p>
+            <p class="cs-text">
                 Today, we operate from our professional Bristol showroom, but we've never forgotten our roots. We still believe in personal service, honest pricing, and treating every customer like family. Our journey from passionate collectors to trusted jewellers reflects our commitment to growing alongside the Bristol community we're proud to serve.
             </p>
-            <a href="/contact" class="cs-button-solid">Contact Us For A Piece</a>
+            <a href="" class="cs-button-solid">Contact Us For A Piece</a>
         </div>
     </div>
 </section>
@@ -160,10 +87,10 @@ document.head.appendChild(script);
         <div class="cs-wrapper">
             <picture class="cs-picture">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="/assets/images/bracelets4.jpg">
+                <source media="(max-width: 600px)" srcset="/assets/images/bracelets8.jpg">
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="/assets/images/bracelets4.jpg">
-                <img loading="lazy" decoding="async" src="/assets/images/bracelets4.jpg" alt="bracelets" width="402" height="416">
+                <source media="(min-width: 601px)" srcset="/assets/images/bracelets8.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/bracelets8.jpg" alt="bracelets" width="402" height="416">
             </picture>
             <ul class="cs-card-group">
                 <li class="cs-item">

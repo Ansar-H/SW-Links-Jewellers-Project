@@ -3,233 +3,127 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #hero-2219 {
-    background-color: #1a1a1a;
-    padding-top: -100px;
-    margin-top: -100px;
+  #hero-998 {
+    min-height: 100vh;
+    /* 144px - 280px */
+    padding: clamp(9rem, 25.95vw, 17.5rem) 1rem;
+    padding-top: 200px;
+    /* prevents padding and border from affecting height and width */
+    box-sizing: border-box;
+    position: relative;
   }
-  #hero-2219 .cs-container {
+  #hero-998 .cs-container {
     width: 100%;
-    max-width: 120rem;
+    max-width: 80rem;
     margin: auto;
+  }
+  #hero-998 .cs-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* 48px - 64px */
-    gap: clamp(3rem, 7vw, 4rem);
-    position: relative;
+    align-items: center;
   }
-  #hero-2219 .cs-content {
-    /* top changes to 100px on tablet */
-    /* bottom 60px - 180px */
-    padding: 22.5rem 1rem clamp(3.75rem, 12vw, 11.25rem);
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    z-index: 2;
-  }
-  #hero-2219 .cs-author {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-  }
-  #hero-2219 .cs-name {
-    font-size: 1.5625rem;
-    font-weight: 700;
+  #hero-998 .cs-topper {
+    /* 16px - 31px */
+    font-size: clamp(1rem, 4.3vw, 1.9375rem);
+    white-space: nowrap;
     line-height: 1.2em;
-    color: var(--bodyTextColorWhite);
-    display: block;
-  }
-  #hero-2219 .cs-job {
-    font-size: 1rem;
-    line-height: 1.5em;
-    margin: 0 0 1rem;
-    color: var(--bodyTextColorWhite);
-    display: block;
-  }
-  #hero-2219 .cs-title {
-    /* 49px - 61px */
-    font-size: clamp(3.0625rem, 6vw, 3.8125rem);
-    max-width: 34.625rem;
-    color: var(--bodyTextColorWhite);
-  }
-  #hero-2219 .cs-text {
-    /* 16px - 20px */
-    font-size: clamp(1rem, 2vw, 1.25rem);
-    max-width: 32.125rem;
-    color: var(--bodyTextColorWhite);
-  }
-  #hero-2219 .cs-video-group {
     width: 100%;
-    /* Make it portrait - tall like a phone */
-    /* 400px - 500px height for portrait */
-    height: clamp(25rem, 50vw, 31.25rem);
-    /* 48px - 80px */
-    margin-top: clamp(3rem, 11vw, 5rem);
-    display: flex;
-    justify-content: flex-end;
+    /* 12px - 24px */
+    margin: 0 0 clamp(0.75rem, 3vw, 1.5rem);
+    color: var(--bodyTextColorWhite);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    cursor: pointer;
+    gap: 1rem;
   }
-  #hero-2219 .cs-video-group:hover .cs-play {
-    transform: translate(-50%, -50%) scale(1.1);
-  }
-  #hero-2219 .cs-video-group .cs-picture {
-    width: 100%;
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    border-radius: 8px;
-    /* Add rounded corners */
-    overflow: hidden;
-  }
-  #hero-2219 .cs-video-group .cs-picture img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-  }
-  #hero-2219 .cs-video-group .cs-video-container {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    border-radius: 8px;
-    /* Match the thumbnail */
-    overflow: hidden;
-  }
-  #hero-2219 .cs-video-group .cs-video-container > div {
-    padding: 0 !important;
-    height: 100% !important;
-    position: relative !important;
-    border-radius: 8px;
-  }
-  #hero-2219 .cs-video-group .cs-video-container iframe {
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    border-radius: 8px;
-  }
-  #hero-2219 .cs-wrapper {
-    width: 75%;
-    /* Make it narrower for portrait aspect ratio */
-    position: relative;
-    z-index: 1;
-  }
-  #hero-2219 .cs-play {
-    /* 80px - 120px */
-    width: clamp(5rem, 10vw, 7.5rem);
-    height: auto;
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    pointer-events: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    /* Center it horizontally */
-    transform: translate(-50%, -50%);
-    /* Center both horizontally and vertically */
-    transform-origin: center;
-    transition: transform 0.3s, opacity 0.3s;
-    z-index: 10;
-    cursor: pointer;
-  }
-  #hero-2219 .cs-play:hover {
-    cursor: pointer;
-  }
-  #hero-2219 .cs-play.cs-hide {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0);
-  }
-  #hero-2219 .cs-play img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  #hero-2219 .cs-background {
-    width: 100%;
-    height: 39.0625rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
-  #hero-2219 .cs-background img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  #hero-2219 .cs-background::before {
+  #hero-998 .cs-topper:before {
+    /* left line */
     content: "";
     width: 100%;
+    max-width: 6.25rem;
+    height: 2px;
+    background: var(--primary);
+    opacity: 1;
+    position: relative;
+    display: block;
+  }
+  #hero-998 .cs-topper:after {
+    /* right line */
+    content: "";
+    width: 100%;
+    max-width: 6.25rem;
+    height: 2px;
+    background: var(--primary);
+    opacity: 1;
+    position: relative;
+    display: block;
+  }
+  #hero-998 .cs-logo {
+    width: 100%;
+    max-width: 38.375rem;
+    margin: 0 0 1.5rem 0;
+    display: block;
+  }
+  #hero-998 .cs-logo img {
+    width: 100%;
+    height: auto;
+  }
+  #hero-998 .cs-text {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 1vw, 1.25rem);
+    line-height: 1.5em;
+    text-align: center;
+    max-width: 518/16rem;
+    /* 24px - 48px */
+    margin: 0 0 clamp(1.5rem, 3vw, 3rem) 0;
+    color: var(--bodyTextColorWhite);
+  }
+  #hero-998 .cs-background {
+    width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #1a1a1a 0%, rgba(26, 26, 26, 0.83) 38.94%, rgba(26, 26, 26, 0) 76.68%);
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
   }
-}
-/* Tablet - 768px */
-@media only screen and (min-width: 48rem) {
-  #hero-2219 {
-    background: linear-gradient(90deg, #1a1a1a 66.48%, rgba(26, 26, 26, 0) 66.82%), #262525;
-    padding-top: 100px;
-    margin-top: 0px;
-  }
-  #hero-2219 .cs-container {
-    align-items: flex-end;
-  }
-  #hero-2219 .cs-content {
-    text-align: left;
-    width: 47%;
-    max-width: 40.375rem;
-    padding-top: 6.25rem;
-    align-items: flex-start;
-  }
-  #hero-2219 .cs-text {
-    max-width: 32.125rem;
-  }
-  #hero-2219 .cs-video-group {
-    /* Make it bigger and more portrait on tablet/desktop */
-    height: clamp(28rem, 35vw, 35rem);
-  }
-  #hero-2219 .cs-video-group .cs-wrapper {
-    width: 70%;
-    /* Narrower for phone-like portrait ratio */
-  }
-  #hero-2219 .cs-author {
+  #hero-998 .cs-background:before {
+    /* background color overlay */
+    content: "";
     position: absolute;
-    /* 60px - 120px */
-    bottom: clamp(3.75rem, 12vw, 7.5rem);
-    left: 7.5rem;
-  }
-  #hero-2219 .cs-job {
-    margin: 0;
-  }
-  #hero-2219 .cs-background {
-    width: 73%;
+    display: block;
     height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    z-index: 1;
   }
-  #hero-2219 .cs-background::before {
-    background: linear-gradient(0deg, #1a1a1a 0%, rgba(26, 26, 26, 0.83) 17.39%, rgba(26, 26, 26, 0) 34.24%), linear-gradient(270deg, #1a1a1a 5.72%, rgba(26, 26, 26, 0.83) 32.01%, rgba(26, 26, 26, 0) 57.49%), -556.663px -57.033px / 285.317% 115.906% no-repeat;
+  #hero-998 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* Makes img tag act as a background image */
+    object-fit: cover;
   }
 }
-/* Large Desktop - 1300px */
-@media only screen and (min-width: 81.25rem) {
-  #hero-2219 .cs-content {
-    width: 100%;
-    box-sizing: content-box;
-    /* 16px - 170px */
-    padding-right: clamp(1rem, 11vw, 10.625rem);
+/* Desktop Parallax - 1400px */
+@media only screen and (min-width: 87.5rem) {
+  #hero-998 .cs-background {
+    background: url("/assets/images/office.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* makes parallax effect */
+    background-attachment: fixed;
+  }
+  #hero-998 .cs-background img {
+    display: none;
   }
 }
 /*-- -------------------------- -->
@@ -237,13 +131,12 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #sbs-1560 {
-    padding: var(--sectionPadding);
+  #sbs-598 {
+    position: relative;
   }
-  #sbs-1560 .cs-container {
+  #sbs-598 .cs-container {
     width: 100%;
-    /* changes to 1280px at desktop */
-    max-width: 34.375rem;
+    max-width: 80rem;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -251,98 +144,64 @@
     /* 48px - 64px */
     gap: clamp(3rem, 6vw, 4rem);
   }
-  #sbs-1560 .cs-content {
+  #sbs-598 .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: left;
     width: 100%;
-    /* changes to 433px at desktop */
-    max-width: 33.875rem;
+    max-width: 32.625rem;
+    /* moved section padding to cs-content so the cs-background can be full width */
+    padding: var(--sectionPadding);
+    /* prevents padding and border from affecting height and width */
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     /* centers content horizontally, set to flex-start to left align */
     align-items: flex-start;
   }
-  #sbs-1560 .cs-text {
+  #sbs-598 .cs-text {
     margin-bottom: 1rem;
   }
-  #sbs-1560 .cs-text:last-of-type {
+  #sbs-598 .cs-text:last-of-type {
     margin-bottom: 2rem;
   }
-  #sbs-1560 .cs-image-group {
-    /* scales the whole group based on the view width size and stop when that vales equals .745em, resets at desktop */
-    font-size: min(1.959vw, .745em);
-    width: 46.125em;
-    /* we set a minimum height so it never gets smaller than this value */
-    min-height: 39.25em;
+  #sbs-598 .cs-background {
     display: block;
     position: relative;
+    width: 100%;
+    height: 16rem;
     z-index: 1;
   }
-  #sbs-1560 .cs-picture {
-    position: absolute;
-  }
-  #sbs-1560 .cs-picture img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  #sbs-598 .cs-background img {
     position: absolute;
     top: 0;
     left: 0;
-  }
-  #sbs-1560 .cs-picture1 {
-    /* the percentage heights allow them to be responsive to the height of the parent cs-image-group. On desktop, when the felxbox is set to aling-items: stretch, the cs-image group will stretch to fill the height of the parent container. So when you add more content to the cs-content group and make it taller, the cs-image group will get taller with it and every image will stretch with the parent, making this entire group responsive to the changing amounts of content next to it */
-    width: 19.0625em;
-    height: 42.197452%;
-    top: 0em;
-    left: 0;
-    z-index: -1;
-  }
-  #sbs-1560 .cs-picture2 {
-    width: 12.3125em;
-    height: 42.197452%;
-    top: 1.3125em;
-    right: 6.75em;
-    z-index: 10;
-  }
-  #sbs-1560 .cs-picture3 {
-    width: 13.5625em;
-    height: 36.624204%;
-    bottom: 0em;
-    left: 5.5em;
-    z-index: -1;
-  }
-  #sbs-1560 .cs-picture4 {
-    width: 19em;
-    height: 33.757962%;
-    bottom: 3.3125em;
-    right: 0em;
-    z-index: -1;
-  }
-  #sbs-1560 .cs-picture5 {
-    width: 19.0625em;
-    height: 70.859873%;
-    top: 5.9375em;
-    left: 13.5625em;
-    z-index: 10;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
 }
-/* Small Desktop - 1024px */
-@media only screen and (min-width: 64rem) {
-  #sbs-1560 .cs-container {
-    max-width: 80rem;
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-598 {
+    /* 90px - 150px */
+    /* returned section padding to the section container, this Stitch has 1.5X padding top and bottom than the normal Stitch */
+    padding: clamp(5.625rem, 9vw, 9.375rem) 1rem;
+  }
+  #sbs-598 .cs-container {
     flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content: flex-end;
   }
-  #sbs-1560 .cs-content {
-    /* this padding sets a minimum gap between the top and bottom of the content div and the top and bottom of the cs-image-group */
-    padding: 3.75rem 0;
-    /* while the cs-image-group will stretch to fill the height of the parent, this property will ensure that the cs-content group aligns itse;f in the center of the parent div instead of stretching */
-    align-self: center;
+  #sbs-598 .cs-background {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 50%;
   }
-  #sbs-1560 .cs-image-group {
-    font-size: min(1.2vw, 1em);
-    flex: none;
+  #sbs-598 .cs-content {
+    width: 45%;
+    padding: 0;
   }
 }
 /*-- -------------------------- -->
