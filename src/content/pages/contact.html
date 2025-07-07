@@ -25,6 +25,15 @@ eleventyNavigation:
             <p class="cs-text">
                 Visit our Bristol showroom, call for expert advice, or send us a message. We're here to help with all your jewellery needs and answer any questions you may have.
             </p>
+            <!-- NEW: Appointment Notice -->
+            <div class="cs-appointment-notice">
+                <div class="cs-notice-content">
+                    <h3 class="cs-notice-title">📅 Appointment Only</h3>
+                    <p class="cs-notice-text">
+                        We operate by appointment only to ensure you receive our full attention and personalised service. Please contact us to arrange your visit.
+                    </p>
+                </div>
+            </div>
             <div class="cs-button-group">
             </div>
         </div>
@@ -58,13 +67,19 @@ eleventyNavigation:
                 </label>
                 <label class="cs-label">
                     Message *
-                    <textarea class="cs-input cs-textarea" required name="Message" id="message-1750" placeholder="Hello, I am interested in..."></textarea>
+                    <textarea class="cs-input cs-textarea" required name="Message" id="message-1750" placeholder="Hello, I would like to book an appointment for..."></textarea>
                 </label>
                 <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
             </form>
         </div>
         <!--Contact Info-->
         <div class="cs-info-group">
+            <!-- NEW: Appointment Notice in Contact Info -->
+            <div class="cs-info cs-appointment-info">
+                <span class="cs-topper">Important Notice</span>
+                <span class="cs-detail">Appointment Only Service</span>
+                <span class="cs-detail-small">We do not accept walk-ins. Please contact us to arrange your visit.</span>
+            </div>
             <div class="cs-info">
                 <span class="cs-topper">Location</span>
                 <span class="cs-detail">Storage Giant <br> Southwest Link Jewellers <br> 821 Bath Road <br> BS4 5NL</span>
@@ -74,6 +89,7 @@ eleventyNavigation:
                 <span class="cs-detail">Monday - Friday: 12PM - 7PM</span>
                 <span class="cs-detail">Saturday: 12PM - 6PM</span>
                 <span class="cs-detail">Sunday: 12PM - 4PM</span>
+                <span class="cs-detail-small">By appointment only</span>
             </div>
             <div class="cs-info">
                 <span class="cs-topper">Contact</span>

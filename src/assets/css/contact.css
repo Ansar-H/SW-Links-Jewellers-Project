@@ -13,6 +13,7 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
+    /* NEW: Appointment Notice Styles */
   }
   #hero-1426 .cs-background {
     width: 100%;
@@ -95,6 +96,41 @@
     margin-bottom: 2rem;
     color: var(--bodyTextColor);
   }
+  #hero-1426 .cs-appointment-notice {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    border: 2px solid #ffc107;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    max-width: 31.25rem;
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.2);
+    animation: pulse-glow 2s ease-in-out infinite alternate;
+  }
+  #hero-1426 .cs-notice-content {
+    text-align: center;
+  }
+  #hero-1426 .cs-notice-title {
+    font-size: clamp(1.125rem, 2.5vw, 1.375rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #856404;
+    margin-bottom: 0.75rem;
+  }
+  #hero-1426 .cs-notice-text {
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.4em;
+    color: #856404;
+    margin: 0;
+    font-weight: 500;
+  }
+  @keyframes pulse-glow {
+    0% {
+      box-shadow: 0 4px 15px rgba(255, 193, 7, 0.2);
+    }
+    100% {
+      box-shadow: 0 4px 20px rgba(255, 193, 7, 0.4);
+    }
+  }
   #hero-1426 .cs-button-group {
     display: flex;
     justify-content: center;
@@ -156,6 +192,8 @@
     position: relative;
     z-index: 1;
     background-color: #f7f7f7;
+    /* NEW: Appointment Info Styles */
+    /* NEW: Small detail text for appointment notice */
   }
   #contact-1750 .cs-container {
     width: 100%;
@@ -289,12 +327,53 @@
     flex-direction: column;
     gap: 1.5rem;
   }
+  #contact-1750 .cs-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #contact-1750 .cs-appointment-info {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    border: 2px solid #ffc107;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+  #contact-1750 .cs-appointment-info:before {
+    content: "⚠️";
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+    font-size: 1.25rem;
+  }
+  #contact-1750 .cs-appointment-info .cs-topper {
+    color: #856404;
+    font-weight: 800;
+  }
+  #contact-1750 .cs-appointment-info .cs-detail {
+    color: #856404;
+    font-weight: 700;
+  }
   #contact-1750 .cs-detail {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.2em;
     color: var(--bodyTextColor);
     display: block;
+  }
+  #contact-1750 .cs-detail-small {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3em;
+    color: var(--bodyTextColor);
+    display: block;
+    font-style: italic;
+    opacity: 0.8;
+  }
+  #contact-1750 .cs-appointment-info .cs-detail-small {
+    color: #856404;
+    opacity: 0.9;
   }
   #contact-1750 .cs-picture-group {
     width: 110%;
