@@ -16,28 +16,51 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="hero-1950">
-    <div class="cs-container">
-        <div class="cs-content">
-            <h1 class="cs-title">We Offer Expert Jewellery Services</h1>
-            <div class="cs-flex-group">
-                <p class="cs-text">From repairs and custom designs to appraisals and gold buying, our Bristol showroom delivers quality services with care, skill, and attention to detail.</p>
-                <a href="#" class="cs-button-solid" id="scroll-to-services">Our Services</a>
-                <script>
-                    document.getElementById('scroll-to-services').addEventListener('click', function(e) {
-                        e.preventDefault();
-                        document.getElementById('services-1558').scrollIntoView({ behavior: 'smooth' });
-                    });
-                </script>
-            </div>
-        </div>
+  <div class="cs-container">
+    <div class="cs-content">
+      <h1 class="cs-title">We Offer Expert Jewellery Services</h1>
+      <div class="cs-flex-group">
+        <p class="cs-text">
+          From repairs and custom designs to appraisals and gold buying, our
+          Bristol showroom delivers quality services with care, skill, and
+          attention to detail.
+        </p>
+        <a href="#" class="cs-button-solid" id="scroll-to-services"
+          >Our Services</a
+        >
+        <script>
+          document
+            .getElementById("scroll-to-services")
+            .addEventListener("click", function (e) {
+              e.preventDefault();
+              document
+                .getElementById("services-1558")
+                .scrollIntoView({ behavior: "smooth" });
+            });
+        </script>
+      </div>
     </div>
+  </div>
 
-    <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
-    <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="/assets/images/services-hero.jpg">
-        <source media="(min-width: 601px)" srcset="/assets/images/services-hero.jpg">
-        <img decoding="async" src="/assets/images/services-hero.jpg" alt="jewellery" width="2250" height="1500" aria-hidden="true">
-    </picture>
+  <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
+  <picture class="cs-background">
+    <source
+      media="(max-width: 600px)"
+      srcset="/assets/images/services-hero.jpg"
+    />
+    <source
+      media="(min-width: 601px)"
+      srcset="/assets/images/services-hero.jpg"
+    />
+    <img
+      decoding="async"
+      src="/assets/images/services-hero.jpg"
+      alt="jewellery"
+      width="2250"
+      height="1500"
+      aria-hidden="true"
+    />
+  </picture>
 </section>
 
 <!-- ============================================ -->
@@ -45,141 +68,318 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="services-1558">
-    <div class="cs-container">
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon"
-                            src="/assets/svgs/repair.svg"
-                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                </picture>
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Jewellery Repair</h3>
-                    <p class="cs-item-text">
-                        Expert repair services for all types of jewellery. We can restore your precious pieces to their original beauty.
-                    </p>
-                    <br>
-                    <ul id="list-1405" class="cs-ul">
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Ring repair and resizing
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Chain and bracelet repair
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Stone setting and replacement
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Clasp and mechanism repair
-                        </li>
-                    </ul>        
-                </div>
+  <div class="cs-container">
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <picture class="cs-picture">
+          <img
+            class="cs-icon"
+            src="/assets/svgs/repair.svg"
+            loading="lazy"
+            decoding="async"
+            alt="icon"
+            width="33"
+            height="38"
+            aria-hidden="true"
+          />
+        </picture>
+        <!-- Text Grouped For Flexbox-->
+        <div class="cs-text-group">
+          <h3 class="cs-h3">Jewellery Repair</h3>
+          <p class="cs-item-text">
+            Expert repair services for all types of jewellery. We can restore
+            your precious pieces to their original beauty.
+          </p>
+          <br />
+          <ul id="list-1405" class="cs-ul">
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Ring repair and resizing
             </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" src="/assets/svgs/custom.svg"
-                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                </picture>
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Custom Design</h3>
-                    <p class="cs-item-text">
-                        Create bespoke jewellery pieces tailored to your vision. Our designers work with you from concept to completion.
-                    </p>
-                                        <br>
-                    <ul id="list-1405" class="cs-ul">
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Engagement ring design
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Wedding band creation
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Unique statement pieces
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            CAD design and rendering
-                        </li>
-                    </ul>  
-                </div>
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Chain and bracelet repair
             </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon"
-                            src="/assets/svgs/watch-services.svg"
-                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                </picture>
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Watch Services</h3>
-                    <p class="cs-item-text">
-                        Comprehensive watch repair and maintenance services for all luxury timepiece brands and vintage watches.
-                    </p>
-                                        <br>
-                    <ul id="list-1405" class="cs-ul">
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Movement servicing
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Battery replacement
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Strap and bracelet repair
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Water resistance testing
-                        </li>
-                    </ul>  
-                </div>
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Stone setting and replacement
             </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon"
-                            src="/assets/svgs/gold.svg"
-                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
-                </picture>
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Gold Buying</h3>
-                    <p class="cs-item-text">
-                        Fair and transparent gold buying service. We offer competitive prices for your gold jewellery and scrap gold.
-                    </p>
-                </div>
-                                    <br>
-                    <ul id="list-1405" class="cs-ul">
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Free gold testing
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Competitive market rates
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Instant cash payment
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            No obligation evaluation
-                        </li>
-                    </ul>  
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Clasp and mechanism repair
             </li>
+          </ul>
+        </div>
+      </li>
+      <li class="cs-item">
+        <picture class="cs-picture">
+          <img
+            class="cs-icon"
+            src="/assets/svgs/custom.svg"
+            loading="lazy"
+            decoding="async"
+            alt="icon"
+            width="33"
+            height="38"
+            aria-hidden="true"
+          />
+        </picture>
+        <!-- Text Grouped For Flexbox-->
+        <div class="cs-text-group">
+          <h3 class="cs-h3">Custom Design</h3>
+          <p class="cs-item-text">
+            Create bespoke jewellery pieces tailored to your vision. Our
+            designers work with you from concept to completion.
+          </p>
+          <br />
+          <ul id="list-1405" class="cs-ul">
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Engagement ring design
+            </li>
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Wedding band creation
+            </li>
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Unique statement pieces
+            </li>
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              CAD design and rendering
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="cs-item">
+        <picture class="cs-picture">
+          <img
+            class="cs-icon"
+            src="/assets/svgs/watch-services.svg"
+            loading="lazy"
+            decoding="async"
+            alt="icon"
+            width="33"
+            height="38"
+            aria-hidden="true"
+          />
+        </picture>
+        <!-- Text Grouped For Flexbox-->
+        <div class="cs-text-group">
+          <h3 class="cs-h3">Watch Services</h3>
+          <p class="cs-item-text">
+            Comprehensive watch repair and maintenance services for all luxury
+            timepiece brands and vintage watches.
+          </p>
+          <br />
+          <ul id="list-1405" class="cs-ul">
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Movement servicing
+            </li>
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Battery replacement
+            </li>
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Strap and bracelet repair
+            </li>
+            <li class="cs-li">
+              <img
+                class="cs-icon"
+                aria-hidden="true"
+                loading="lazy"
+                decoding="async"
+                src="/assets/svgs/yellow-check.svg"
+                alt="checkmark"
+                width="24"
+                height="24"
+              />
+              Water resistance testing
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="cs-item">
+        <picture class="cs-picture">
+          <img
+            class="cs-icon"
+            src="/assets/svgs/gold.svg"
+            loading="lazy"
+            decoding="async"
+            alt="icon"
+            width="33"
+            height="38"
+            aria-hidden="true"
+          />
+        </picture>
+        <!-- Text Grouped For Flexbox-->
+        <div class="cs-text-group">
+          <h3 class="cs-h3">Gold Buying</h3>
+          <p class="cs-item-text">
+            Fair and transparent gold buying service. We offer competitive
+            prices for your gold jewellery and scrap gold.
+          </p>
+        </div>
+        <br />
+        <ul id="list-1405" class="cs-ul">
+          <li class="cs-li">
+            <img
+              class="cs-icon"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/assets/svgs/yellow-check.svg"
+              alt="checkmark"
+              width="24"
+              height="24"
+            />
+            Free gold testing
+          </li>
+          <li class="cs-li">
+            <img
+              class="cs-icon"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/assets/svgs/yellow-check.svg"
+              alt="checkmark"
+              width="24"
+              height="24"
+            />
+            Competitive market rates
+          </li>
+          <li class="cs-li">
+            <img
+              class="cs-icon"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/assets/svgs/yellow-check.svg"
+              alt="checkmark"
+              width="24"
+              height="24"
+            />
+            Instant cash payment
+          </li>
+          <li class="cs-li">
+            <img
+              class="cs-icon"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/assets/svgs/yellow-check.svg"
+              alt="checkmark"
+              width="24"
+              height="24"
+            />
+            No obligation evaluation
+          </li>
         </ul>
-    </div>
+      </li>
+    </ul>
+  </div>
 </section>
 
 <!-- ============================================ -->
@@ -187,55 +387,128 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="sbs-2348">
-    <div class="cs-container">
-        <div class="cs-content">
-            <span class="cs-topper">Custom design</span>
-            <h2 class="cs-title">Bespoke Jewellery <br> Design Services</h2>
-            <p class="cs-text">
-                Transform your vision into reality with our expert custom jewellery design service. From engagement rings to family heirlooms, we create unique pieces that tell your story with exceptional craftsmanship and attention to detail.
-            </p>
-            <ul id="list-1405" class="cs-ul">
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Engagement rings and wedding bands
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Anniversary and statement pieces
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Memorial and commemorative jewellery
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            CAD design with 3D visualization
-                        </li>
-            </ul>
-            <ul id="list-1404">
-                <li class="cs-item">
-                    <h3 class="cs-h3">
-                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check2.svg" alt="icon" width="32" height="32">
-                        4-6 Weeks Completion
-                    </h3>
-                </li>
-                <li class="cs-item">
-                    <h3 class="cs-h3">
-                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/consultation.svg" alt="icon" width="32" height="32">
-                       Free Initial Consultation
-                    </h3>
-                </li>
-            </ul>                
-            <a href="/contact" class="cs-button-solid">Start Design Process</a>
-        </div>
-        <picture class="cs-picture">
-            <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="/assets/images/bracelets16.jpg">
-            <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="/assets/images/bracelets16.jpg">
-            <img loading="lazy" decoding="async" src="/assets/images/bracelets16.jpg" alt="custom jewellery design" width="1280" height="568">
-        </picture>
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Custom design</span>
+      <h2 class="cs-title">
+        Bespoke Jewellery <br />
+        Design Services
+      </h2>
+      <p class="cs-text">
+        Transform your vision into reality with our expert custom jewellery
+        design service. From engagement rings to family heirlooms, we create
+        unique pieces that tell your story with exceptional craftsmanship and
+        attention to detail.
+      </p>
+      <ul id="list-1405" class="cs-ul">
+        <li class="cs-li">
+          <img
+            class="cs-icon"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/yellow-check.svg"
+            alt="checkmark"
+            width="24"
+            height="24"
+          />
+          Engagement rings and wedding bands
+        </li>
+        <li class="cs-li">
+          <img
+            class="cs-icon"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/yellow-check.svg"
+            alt="checkmark"
+            width="24"
+            height="24"
+          />
+          Anniversary and statement pieces
+        </li>
+        <li class="cs-li">
+          <img
+            class="cs-icon"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/yellow-check.svg"
+            alt="checkmark"
+            width="24"
+            height="24"
+          />
+          Memorial and commemorative jewellery
+        </li>
+        <li class="cs-li">
+          <img
+            class="cs-icon"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/yellow-check.svg"
+            alt="checkmark"
+            width="24"
+            height="24"
+          />
+          CAD design with 3D visualization
+        </li>
+      </ul>
+      <ul id="list-1404">
+        <li class="cs-item">
+          <h3 class="cs-h3">
+            <img
+              class="cs-h3-icon"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/assets/svgs/yellow-check2.svg"
+              alt="icon"
+              width="32"
+              height="32"
+            />
+            4-6 Weeks Completion
+          </h3>
+        </li>
+        <li class="cs-item">
+          <h3 class="cs-h3">
+            <img
+              class="cs-h3-icon"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/assets/svgs/consultation.svg"
+              alt="icon"
+              width="32"
+              height="32"
+            />
+            Free Initial Consultation
+          </h3>
+        </li>
+      </ul>
+      <a href="/contact" class="cs-button-solid">Start Design Process</a>
     </div>
+    <picture class="cs-picture">
+      <!--Mobile Image-->
+      <source
+        media="(max-width: 600px)"
+        srcset="/assets/images/bracelets16.jpg"
+      />
+      <!--Tablet and above Image-->
+      <source
+        media="(min-width: 601px)"
+        srcset="/assets/images/bracelets16.jpg"
+      />
+      <img
+        loading="lazy"
+        decoding="async"
+        src="/assets/images/bracelets16.jpg"
+        alt="custom jewellery design"
+        width="1280"
+        height="568"
+      />
+    </picture>
+  </div>
 </section>
 
 <!-- ============================================ -->
@@ -243,55 +516,125 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="sbs-2348-2">
-    <div class="cs-container">
-        <div class="cs-content">
-            <span class="cs-topper">Gold Buying</span>
-            <h2 class="cs-title">Fair & Transparent Gold Buying Service</h2>
-            <p class="cs-text">
-                Get the best value for your unwanted gold, silver, and platinum jewellery. Our transparent process ensures fair market prices with immediate cash payment. No pressure, no hidden fees - just honest, professional service.
-            </p>
-            <ul id="list-1405" class="cs-ul">
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Gold jewellery (9k, 14k, 18k, 22k)
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Silver chains, rings, and bracelets
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Broken or damaged items welcome
-                        </li>
-                        <li class="cs-li">
-                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check.svg" alt="checkmark" width="24" height="24">
-                            Free professional evaluation
-                        </li>
-            </ul>
-            <ul id="list-1404">
-                <li class="cs-item">
-                    <h3 class="cs-h3">
-                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/yellow-check2.svg" alt="icon" width="32" height="32">
-                        Instant Cash Payment
-                    </h3>
-                </li>
-                <li class="cs-item">
-                    <h3 class="cs-h3">
-                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/valuation.svg" alt="icon" width="32" height="32">
-                       Free Gold Valuation
-                    </h3>
-                </li>
-            </ul>                
-            <a href="/contact" class="cs-button-solid">Get Free Valuation</a>
-        </div>
-        <picture class="cs-picture">
-            <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="/assets/images/custom-design2.jpg">
-            <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="/assets/images/custom-design2.jpg">
-            <img loading="lazy" decoding="async" src="/assets/images/custom-design2.jpg" alt="sell gold" width="1280" height="568">
-        </picture>
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Gold Buying</span>
+      <h2 class="cs-title">Fair & Transparent Gold Buying Service</h2>
+      <p class="cs-text">
+        Get the best value for your unwanted gold, silver, and platinum
+        jewellery. Our transparent process ensures fair market prices with
+        immediate cash payment. No pressure, no hidden fees - just honest,
+        professional service.
+      </p>
+      <ul id="list-1405" class="cs-ul">
+        <li class="cs-li">
+          <img
+            class="cs-icon"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/yellow-check.svg"
+            alt="checkmark"
+            width="24"
+            height="24"
+          />
+          Gold jewellery (9k, 14k, 18k, 22k)
+        </li>
+        <li class="cs-li">
+          <img
+            class="cs-icon"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/yellow-check.svg"
+            alt="checkmark"
+            width="24"
+            height="24"
+          />
+          Silver chains, rings, and bracelets
+        </li>
+        <li class="cs-li">
+          <img
+            class="cs-icon"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/yellow-check.svg"
+            alt="checkmark"
+            width="24"
+            height="24"
+          />
+          Broken or damaged items welcome
+        </li>
+        <li class="cs-li">
+          <img
+            class="cs-icon"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/yellow-check.svg"
+            alt="checkmark"
+            width="24"
+            height="24"
+          />
+          Free professional evaluation
+        </li>
+      </ul>
+      <ul id="list-1404">
+        <li class="cs-item">
+          <h3 class="cs-h3">
+            <img
+              class="cs-h3-icon"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/assets/svgs/yellow-check2.svg"
+              alt="icon"
+              width="32"
+              height="32"
+            />
+            Instant Cash Payment
+          </h3>
+        </li>
+        <li class="cs-item">
+          <h3 class="cs-h3">
+            <img
+              class="cs-h3-icon"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="/assets/svgs/valuation.svg"
+              alt="icon"
+              width="32"
+              height="32"
+            />
+            Free Gold Valuation
+          </h3>
+        </li>
+      </ul>
+      <a href="/contact" class="cs-button-solid">Get Free Valuation</a>
     </div>
+    <picture class="cs-picture">
+      <!--Mobile Image-->
+      <source
+        media="(max-width: 600px)"
+        srcset="/assets/images/custom-design2.jpg"
+      />
+      <!--Tablet and above Image-->
+      <source
+        media="(min-width: 601px)"
+        srcset="/assets/images/custom-design2.jpg"
+      />
+      <img
+        loading="lazy"
+        decoding="async"
+        src="/assets/images/custom-design2.jpg"
+        alt="sell gold"
+        width="1280"
+        height="568"
+      />
+    </picture>
+  </div>
 </section>
 
 <!-- ============================================ -->
@@ -299,42 +642,46 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="steps-585">
-    <div class="cs-container">
-        <div class="cs-content">
-            <span class="cs-topper">How it works</span>
-            <h2 class="cs-title">Our Service Process</h2>
-        </div>
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <h3 class="cs-h3">Consultation</h3>
-                <p class="cs-item-text">
-                    Visit our showroom for a free, no-obligation consultation to assess your needs.
-                </p>
-                <span class="cs-number">01</span>
-            </li>
-            <li class="cs-item">
-                <h3 class="cs-h3">Design or Inspection</h3>
-                <p class="cs-item-text">
-                    We'll sketch your custom design or inspect your item for repair and provide expert recommendations.
-                </p>
-                <span class="cs-number">02</span>
-            </li>
-            <li class="cs-item">
-                <h3 class="cs-h3">Work Begins</h3>
-                <p class="cs-item-text">
-                    Our jewellers get to work crafting, cleaning, repairing, or customising your piece.
-                </p>
-                <span class="cs-number">03</span>
-            </li>
-            <li class="cs-item">
-                <h3 class="cs-h3">Final Check & Delivery</h3>
-                <p class="cs-item-text">
-                    Every item is quality-checked before collection or delivery, ensuring you're 100% satisfied.
-                </p>
-                <span class="cs-number">04</span>
-            </li>
-        </ul>
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">How it works</span>
+      <h2 class="cs-title">Our Service Process</h2>
     </div>
-</section>                                                                       
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <h3 class="cs-h3">Consultation</h3>
+        <p class="cs-item-text">
+          Visit our showroom for a free, no-obligation consultation to assess
+          your needs.
+        </p>
+        <span class="cs-number">01</span>
+      </li>
+      <li class="cs-item">
+        <h3 class="cs-h3">Design or Inspection</h3>
+        <p class="cs-item-text">
+          We'll sketch your custom design or inspect your item for repair and
+          provide expert recommendations.
+        </p>
+        <span class="cs-number">02</span>
+      </li>
+      <li class="cs-item">
+        <h3 class="cs-h3">Work Begins</h3>
+        <p class="cs-item-text">
+          Our jewellers get to work crafting, cleaning, repairing, or
+          customising your piece.
+        </p>
+        <span class="cs-number">03</span>
+      </li>
+      <li class="cs-item">
+        <h3 class="cs-h3">Final Check & Delivery</h3>
+        <p class="cs-item-text">
+          Every item is quality-checked before collection or delivery, ensuring
+          you're 100% satisfied.
+        </p>
+        <span class="cs-number">04</span>
+      </li>
+    </ul>
+  </div>
+</section>
 
 {% endblock %}
